@@ -1,0 +1,68 @@
+.landing{
+}
+
+
+.left{
+    /* background-image: url("../../assets/landingBg.jpg");
+
+    background-size: contain; */
+    padding: 10%;
+    ;
+    background-color: goldenrod;
+   
+    transition: width 2s, background-image 2s;
+}
+
+
+
+.left:hover{
+
+    width: 600rem;
+
+    background-image: url("../../assets/landingBg.jpg");
+
+    background-size: cover;
+
+    opacity: 0.4;
+}
+
+
+.left img{
+    
+     height: auto;
+    
+    width: auto;
+    margin-top: -15%;
+}
+
+
+
+.right img{
+    
+    height: auto;
+    
+    width: auto;
+
+    
+}
+
+.right{
+    background-color: rgb(6, 73, 73);
+    
+    
+
+    transition: width 2s;
+    padding: 10%;
+    
+}
+
+
+
+
+.right:hover{
+
+    width: 600rem;
+}
+
+
+
