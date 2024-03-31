@@ -1,68 +1,48 @@
-.landing{
-}
-
-
-.left{
-    /* background-image: url("../../assets/landingBg.jpg");
-
-    background-size: contain; */
+.landing {
+    display: flex;
+  }
+  
+  .left {
     padding: 10%;
-    ;
-    background-color: goldenrod;
-   
-    transition: width 2s, background-image 2s;
-}
-
-
-
-.left:hover{
-
-    width: 600rem;
-
-    background-image: url("../../assets/landingBg.jpg");
-
-    background-size: cover;
-
-    opacity: 0.4;
-}
-
-
-.left img{
-    
-     height: auto;
-    
-    width: auto;
-    margin-top: -15%;
-}
-
-
-
-.right img{
-    
+    background-color: rgb(134, 47, 47);
+    transition: width 2s, background-color 2s, padding 2s;
+  }
+  
+  
+  .left img {
     height: auto;
-    
     width: auto;
-
-    
-}
-
-.right{
+    max-width: 100%;
+    max-height: 100%; /* Ensure image doesn't exceed the left block's boundaries */
+  }
+  
+  .right {
     background-color: rgb(6, 73, 73);
-    
-    
+    transition: width 2s, background-color 2s, padding 2s;
+     padding: 10%;
+  }
+  
+  .right img {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;/* Ensure image doesn't exceed the left block's boundaries */
+  }
 
-    transition: width 2s;
-    padding: 10%;
-    
-}
+  .right:hover {
+    width: auto; /* Take up the entire screen */
+    height: auto;
+    /* padding-left: 50%;  */
+    padding-right: 50%;
 
+  }
+  
 
-
-
-.right:hover{
-
-    width: 600rem;
-}
-
-
-
+  .left:hover {
+    width: auto; /* Take up the entire screen */
+    background-color: goldenrod;
+    /* padding-left: 50%; */
+    padding-right: 50%; /* Remove padding */
+    height: auto;
+  }
+  
