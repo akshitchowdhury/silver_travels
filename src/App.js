@@ -3,6 +3,7 @@ import './App.css';
 import Landing from './components/Landing/Landing';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/Home/Home';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Route path='/services' element= {<Home/>}/>
       <Route path='/contact' element= {<Home/>}/>
       </Routes>
+      <Footer/>
       </Router>
     </div>
   );
