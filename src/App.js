@@ -14,6 +14,10 @@ function App() {
         
       <Route path='/' element= {<Landing/>}/>
       <Route path='/home' element= {<Home/>}/>
+      <Route path='/about' element= {<Home/>}/>
+      <Route path='/gallery' element= {<Home/>}/>
+      <Route path='/services' element= {<Home/>}/>
+      <Route path='/contact' element= {<Home/>}/>
       </Routes>
       </Router>
     </div>

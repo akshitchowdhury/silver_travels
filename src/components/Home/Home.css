@@ -1,8 +1,93 @@
 
-.homeBg{
+.bg-cover{
 
     background-image: url('../../assets/homeBg.jpg');
-    background-size: contain;
+    background-size: cover;
+    background-attachment: fixed;
     width: 100%;
     height: 120vh;
+    padding: 3px 0;
 }
+
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    height: 20%;
+    width: 100%;
+    margin-right: 20px; 
+    position: absolute;
+    
+}
+
+.container{
+    /* border: 3pt solid red; */
+    margin-top: -7%;
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: flex-end; /* Align links to the end (right side) */
+    align-items: center;
+    margin-left: 60%;
+}
+
+.navbar-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin-left: 20px;
+    font-family: "Gill Sans", sans-serif;
+    transition: transform 0.3s ease; /* Added transition property */
+    /* border: 3pt solid black; */
+    padding: 3px;
+}
+
+.navbar-link:hover {
+    transform: scale(1.6); /* Enlarge the link on hover */
+    color: rgb(15, 62, 133);
+}
+
+/* .navbar-link:hover {
+    transform: scale(1.75);
+    color: rgb(48, 104, 187);
+} */
+
+.logo img{
+    width: 10%;
+    height: 10%;
+    margin-left: -5%;
+}
+  
+
+.navBlock {
+    width: 100%;
+    height: auto; /* Adjust height to auto for responsiveness */
+    min-height: 120vh; /* Ensure minimum height of 100vh */
+    display: flex;
+   
+    background-size: cover;
+    background-position: center;
+    /* animation: slideshow 20s infinite;  */
+   
+    min-height: 100vh; /* Ensure minimum height of 100vh */
+    display: flex;
+    right: 0;
+   
+
+
+}
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .navBlock {
+        padding: 10px; /* Adjust padding for smaller devices */
+    }
+}
+
+
+/* .contact{
+    margin-top: 10%;
+}
+ */
