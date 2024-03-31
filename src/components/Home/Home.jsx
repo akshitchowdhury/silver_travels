@@ -2,13 +2,20 @@ import React from "react";
 
 import "./Home.css";
 import mainLogo from "../../assets/logo.png";
-import { Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import HomeAbout from "./HomeAbout";
 import HomeWhyUs from "./HomeWhyUs";
+import Footer from "../Footer/Footer";
+import About from "../About/About";
 
 const Home = () => {
   return (
     <>
+
+
+
+
+
       <div className="navBlock w-full">
         <nav className="bg-cover">
           <div class="logo flex items-start justify-start px-3 py-2 mx-auto max-w-screen-xl">
@@ -40,6 +47,7 @@ const Home = () => {
       <HomeAbout />
 
       <HomeWhyUs />
+      
     </>
   );
 };
