@@ -1,10 +1,14 @@
 import React from 'react'
 
 import about from '../../assets/home3.jpg'
+import Nav from '../Navbar/Nav'
+import Footer from '../Footer/Footer'
 
 const About = () => {
   return (
-    <div>
+    <>  
+      <Nav/>
+      <div>
         <div className="WhyUs" >
       <div
         className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-start"
@@ -44,6 +48,9 @@ const About = () => {
       </div>
     </div>      
     </div>
+    <Footer/>
+    </>
+
   )
 }
 

@@ -1,41 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
-import Landing from './components/Landing/Landing';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './components/Home/Home';
-import Footer from './components/Footer/Footer';
-import About from './components/About/About';
-import Contact from './components/Contact/Contact';
+import "./App.css";
+import Landing from "./components/Landing/Landing";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  useLocation,
+} from "react-router-dom";
+import Home from "./components/Home/Home";
+import Footer from "./components/Footer/Footer";
+import About from "./components/About/About";
+import Contact from "./components/Contact/Contact";
+import Nav from "./components/Navbar/Nav";
+import Services from "./components/Services/Services";
+import Gallery from "./components/Gallery/Gallery";
 
 function App() {
+  const routeClass = {
+    class : 'landing',
+    class : 'others'
+  }
+
   return (
     <div className="App">
-<Router>
-        <Routes>
-          <Route path='/' element={<Landing />} />
-          <Route path='/home' element={<Home />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/gallery' element={<Home />} />
-          <Route path='/services' element={<Home />} />
-          <Route path='/contact' element={<Contact />} />
-        </Routes>
-        
-        
-      </Router> 
-      
-      
-      {/* <Router>
-        <Routes>
-         <Route path='/home' element={<Home />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/gallery' element={<Home />} />
-          <Route path='/services' element={<Home />} />
-          <Route path='/contact' element={<Home />} />
 
-        </Routes>
-        <Footer />
-      </Router> */}
-      {/* <Home/> */}
+        <Router className="landing">
+          <Routes>
+            <Route path="/" element={<Landing />} />
+            
+            <Route path="/home" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/gallery" element={<Gallery/>} />
+            <Route path="/services" element={<Services/>} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </Router>
+      
     </div>
   );
 }

@@ -76,7 +76,13 @@ const Footer = () => {
             </ul>
           </div>
         </div>
+        <div className="self-center mt-7 text-base tracking-wide text-white max-md:max-w-full" style={{marginLeft:
+      '37%'}}>
+        @copyright 2024 Developed by Akshit Chowdhury
       </div>
+      </div>
+      
+    
     </footer>
   );
 };
