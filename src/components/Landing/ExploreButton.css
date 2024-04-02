@@ -1,0 +1,7 @@
+.exploreContact{
+    transition: margin-left 2s;
+}
+
+.exploreContact:hover{
+    margin-left: 100%;
+}

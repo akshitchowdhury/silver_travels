@@ -1,0 +1,15 @@
+.about{
+    background-image: url('../../assets/serviceBg3.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+    padding: 33px 0;
+}
+
+
+.eventImg{
+
+    background-image: linear-gradient(to right, inherit, rgb(228, 185, 120)); /* Adjust the RGB values as needed */
+    box-shadow: 4px 6px 10px rgba(10, 10, 10, 0.5);
+}

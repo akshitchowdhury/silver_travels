@@ -3,13 +3,15 @@ import React from 'react'
 import about from '../../assets/home3.jpg'
 import Nav from '../Navbar/Nav'
 import Footer from '../Footer/Footer'
-
+import './About.css'
 const About = () => {
   return (
     <>  
-      <Nav/>
+      
       <div>
-        <div className="WhyUs" >
+      
+        <div className="about" >
+        <Nav/>
       <div
         className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-start"
         style={{ padding: "4%" }}
@@ -34,8 +36,8 @@ const About = () => {
           Play Paw is the perfect place for kids to explore, learn, and grow.
           Join us today and let the adventure begin!
         </p>
-        <img
-          src={about}
+        <div
+          
           alt="placeholder"
           className="eventImg md:w-full"
           style={{
@@ -43,6 +45,8 @@ const About = () => {
             borderRadius: "5%",
             marginLeft: "4%",
             width: "100%",
+            backgroundColor: 'inherit',
+            
           }}
         />
       </div>

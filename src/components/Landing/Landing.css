@@ -14,12 +14,18 @@
     width: auto;
     max-width: 100%;
     max-height: 100%; /* Ensure image doesn't exceed the left block's boundaries */
+    transition: margin-left 2s;
+  }
+
+  .left img:hover{
+    margin-left: 50%;
   }
   
   .right {
     background-color: rgb(6, 73, 73);
     transition: width 2s, background-color 2s, padding 2s;
      padding: 10%;
+     
   }
   
   .right img {
@@ -27,13 +33,19 @@
     width: auto;
     max-width: 100%;
     max-height: 100%;/* Ensure image doesn't exceed the left block's boundaries */
+    transition: margin-left 2s;
+  }
+
+  .right img:hover{
+    margin-left: 100%;
   }
 
   .right:hover {
     width: auto; /* Take up the entire screen */
     height: auto;
     /* padding-left: 50%;  */
-    padding-right: 50%;
+    padding-right: 37%;
+    background-color: peru;
 
   }
   
@@ -42,7 +54,7 @@
     width: auto; /* Take up the entire screen */
     background-color: goldenrod;
     /* padding-left: 50%; */
-    padding-right: 50%; /* Remove padding */
+    padding-right: 37%; /* Remove padding */
     height: auto;
   }
   
