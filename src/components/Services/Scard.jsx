@@ -3,23 +3,13 @@ import ticket from '../../assets/serviceLogo1.png';
 import hotel from '../../assets/serviceLogo2.png';
 import plane from '../../assets/serviceLogo3.jpg';
 import bags from '../../assets/serviceLogo3.png';
-
-import './ServiceCard.css'
 import { Link } from 'react-router-dom';
-import Scard from './Scard';
 
 
-const ServiceCard = () => {
+const Scard = () => {
   return (
-    <>
-      <div class="self-center mt-8 text-5xl font-bold tracking-wider text-center text-white max-w-[90%] mx-auto" style={{
-        marginTop: '10%'
-      }}>
-   Create your next memory with us at Silver Line Travels.. 
-</div>
-  <Scard/>
-
-      {/* <div className="self-center px-4 mt-8 w-full max-w-[90%] mx-auto" style={{marginTop: '10%'}}>
+    <div>
+       <div className="self-center px-4 mt-8 w-full max-w-[90%] mx-auto" style={{marginTop: '10%'}}>
         <div className="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
         <Link to="/birthday">
           <div className="Servecard flex flex-col items-center px-5 py-8 w-full text-center text-fuchsia-900 bg-pink-100 rounded-xl border-2 border-solid border-zinc-400">
@@ -86,9 +76,9 @@ const ServiceCard = () => {
           </Link>
 
         </div>
-      </div> */}
-    </>
-  );
-};
+      </div>
+    </div>
+  )
+}
 
-export default ServiceCard;
+export default Scard

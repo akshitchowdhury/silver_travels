@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Transition } from "@headlessui/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChild, faEnvelope, faPaw, faPhone, } from "@fortawesome/free-solid-svg-icons";
+import { faAddressBook, faChild, faEnvelope, faPaw, faPhone, } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook, faInstagram, faLinkedin, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import './SocialIcons2.css'
 import WhatsApp from './Whatsapp/Whatsapp';
@@ -19,8 +19,8 @@ const SocialIcons = () => {
         <button
           className={`w-12 h-12 bg-${isOpen ? 'blue' : 'green'}-500 text-white rounded-full transition duration-300 flex items-center justify-center`}
           onClick={toggleAccordion}
-        >
-          {isOpen ? '-' : '+'}
+        > 
+          {isOpen ? <FontAwesomeIcon icon={faAddressBook}/> : <FontAwesomeIcon icon={faAddressBook}/>}
         </button>
         <Transition
           show={isOpen}
@@ -36,7 +36,7 @@ const SocialIcons = () => {
               
     <div ref={ref} className='social-icons absolute top-0 left-24  p-2 rounded-lg' 
     style={styles.container}>
-      <a href="https://www.instagram.com/play_pawws?igsh=YXVrOXJjb2gweTNw&utm_source=qr" style={styles.link}><FontAwesomeIcon icon={faInstagram} style={styles.icon('#E717A9', '#405DE6')} /></a>
+      <a href="https://www.instagram.com/play_pawws?igsh=YXVrOXJjb2gweTNw&utm_source=qr" style={styles.link}><FontAwesomeIcon icon={faInstagram} style={styles.icon('#E717A9', '#E717A9')} /></a>
       {/* <a href="https://www.instagram.com/play_pawws?igsh=YXVrOXJjb2gweTNw&utm_source=qr" style={styles.link}><FontAwesomeIcon icon={faWhatsapp} style={styles.icon('#405DE6', '#405DE6')} /></a>
        */}
       <a> <WhatsApp/> </a>

@@ -9,6 +9,8 @@ import Footer from "../Footer/Footer";
 import About from "../About/About";
 import Nav from "../Navbar/Nav";
 import SocialIcons from "../Social Icons/SocialIcons";
+import ServiceCard from "../Services/ServiceCard";
+import Scard from "../Services/Scard";
 
 const Home = () => {
   return (
@@ -19,7 +21,9 @@ const Home = () => {
         <nav className="bg-cover">
         <Nav/>
         <SocialIcons/>
-        <h1 className="titleText text-center text-center font-semibold text-4xl" style={{marginTop: '20%'}}>Silver Line travels</h1>   
+        <h1 className="titleText text-center text-center font-semibold text-4xl" style={{marginTop: '10%'}}>Silver Line travels</h1>   
+        
+        
         </nav>
       </div>
       <HomeAbout />
