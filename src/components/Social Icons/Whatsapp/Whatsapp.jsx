@@ -40,7 +40,7 @@ const WhatsApp = ({ phoneNumber, message }) => {
   };
 
   return (
-    <FontAwesomeIcon icon={faWhatsapp} onClick={handleClick} style={styles.icon('#405DE6', '#405DE6')} />
+    <FontAwesomeIcon icon={faWhatsapp} onClick={handleClick} style={styles.icon('#5CE640', '#081450')} />
       
   );
 };
