@@ -1,0 +1,19 @@
+.Servecard {
+    /* Add your ServeCard styles here */
+    transition: transform 0.3s ease; /* Smooth transition effect */
+    border-radius: 15%;
+    height: 350px;
+    padding: 10%;
+    
+}
+  
+  .Servecard:hover {
+    transform: scale(1.1); /* Enlarge the card on hover */
+  }
+  
+  .bubblegum-sans-regular {
+    font-family: "Bubblegum Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  

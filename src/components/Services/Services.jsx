@@ -1,13 +1,25 @@
 import React from 'react'
 import Nav from '../Navbar/Nav'
 import Footer from '../Footer/Footer'
-
+import './Services.css'
+import ServiceCard from './ServiceCard'
 const Services = () => {
   return (
-    <div>
+    <>
+    <div className='services'>
       <Nav/>
-      <Footer/>
-    </div>
+
+
+        <div className="serviceCards">
+          <ServiceCard/>
+        </div>
+
+
+
+          </div>
+          <Footer/>
+          </>
+
   )
 }
 

@@ -16,7 +16,8 @@ const Home = () => {
     
       <div className="navBlock w-full">
         <nav className="bg-cover">
-        <Nav/>   
+        <Nav/>
+        <h1 className="titleText text-center text-center font-semibold text-4xl" style={{marginTop: '20%'}}>Silver Line travels</h1>   
         </nav>
       </div>
       <HomeAbout />
