@@ -5,6 +5,7 @@ import MapLeaflet from './MapLeaflet';
 import './Contact.css'
 import Footer from '../Footer/Footer';
 import Nav from '../Navbar/Nav';
+import SocialIcons from '../Social Icons/SocialIcons';
 
 const ContactComponent = forwardRef((props,ref) => {
 
@@ -47,6 +48,7 @@ const ContactComponent = forwardRef((props,ref) => {
   
   <div ref={ref} className='connect-container'>
   <Nav/>
+  <SocialIcons/>
   <h2 className="connect w-full lg:w-3/4 px-4 lg:p-4 lg:h-full rounded-lg  text-3xl md:text-4xl font-bold mb-4 text-center md:text-left mx-auto">Reach out to us</h2>
 
     <div className="contactContent flex flex-col lg:flex-row sm:flex-col gap-6" >

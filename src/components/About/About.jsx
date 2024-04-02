@@ -4,6 +4,7 @@ import about from '../../assets/home3.jpg'
 import Nav from '../Navbar/Nav'
 import Footer from '../Footer/Footer'
 import './About.css'
+import SocialIcons from '../Social Icons/SocialIcons'
 const About = () => {
   return (
     <>  
@@ -12,6 +13,7 @@ const About = () => {
       
         <div className="about" >
         <Nav/>
+        <SocialIcons/>
       <div
         className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-start"
         style={{ padding: "4%" }}
