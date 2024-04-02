@@ -11,9 +11,12 @@ import { Link } from 'react-router-dom';
 const ServiceCard = () => {
   return (
     <>
-      {/* <div className="bubblegum-sans-regular self-center mt-8 text-4xl tracking-wider text-center text-fuchsia-900 max-w-[90%] mx-auto">
-      Play Pawws: Services and Play Stops for You and Your Playful Kids
-      </div> */}
+      <div class="self-center mt-8 text-5xl font-bold tracking-wider text-center text-white max-w-[90%] mx-auto" style={{
+        marginTop: '10%'
+      }}>
+   Create your next memory with us at Silver Line Travels.. 
+</div>
+
 
       <div className="self-center px-4 mt-8 w-full max-w-[90%] mx-auto" style={{marginTop: '10%'}}>
         <div className="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
