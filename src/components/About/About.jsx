@@ -5,6 +5,7 @@ import Nav from '../Navbar/Nav'
 import Footer from '../Footer/Footer'
 import './About.css'
 import SocialIcons from '../Social Icons/SocialIcons'
+import AboutWhyUs from './AboutWhyUs'
 const About = () => {
   return (
     <>  
@@ -52,8 +53,11 @@ const About = () => {
           }}
         />
       </div>
+
+      
     </div>      
     </div>
+    <AboutWhyUs/>
     <Footer/>
     </>
 
