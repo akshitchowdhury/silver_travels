@@ -32,7 +32,7 @@ const HomeAbout = () => {
   
   </div>
  
-  <p className="paraText bubblegum-sans-regular text-lg mb-2 md:mb-4">
+  <p className="paraText text-lg mb-2 md:mb-4">
     At Play Paw, we believe in creating a world of fun and excitement for kids! Our playzone area is designed to be a haven of joy, where children can unleash their imagination and energy in a safe and vibrant environment.
     <br/><br/>
     With colorful play structures, interactive games, and engaging activities, Play Paw is the ultimate destination for kids to laugh, play, and make new friends. Our dedicated staff ensures that every visit is filled with unforgettable moments and endless smiles.

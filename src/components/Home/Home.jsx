@@ -11,6 +11,7 @@ import Nav from "../Navbar/Nav";
 import SocialIcons from "../Social Icons/SocialIcons";
 import ServiceCard from "../Services/ServiceCard";
 import Scard from "../Services/Scard";
+import BookNow from "./BookNow";
 
 const Home = () => {
   return (
@@ -29,6 +30,7 @@ const Home = () => {
       <HomeAbout />
 
       <HomeWhyUs />
+      <BookNow/>
       <Footer/>
     </>
   );
