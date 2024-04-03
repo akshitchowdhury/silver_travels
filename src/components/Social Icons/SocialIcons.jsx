@@ -31,7 +31,7 @@ const SocialIcons = () => {
           leaveFrom="opacity-100 scale-100"
           leaveTo="opacity-0 scale-0"
         >
-          {(ref) => (
+          {(ref) => ( 
             
               
     <div ref={ref} className='social-icons absolute top-0 left-24  p-2 rounded-lg' 
