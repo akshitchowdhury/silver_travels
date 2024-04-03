@@ -14,7 +14,7 @@ const Accordion = ({ items }) => {
       {items.map((item, index) => (
         <div key={index} className="mb-2">
         <button
-  className="w-1/3 flex justify-between items-end bg-white p-4 rounded-md focus:outline-none transition-colors duration-700 hover:bg-yellow-300"
+  className="w-2/3 flex justify-between items-end bg-white p-4 rounded-md focus:outline-none transition-colors duration-700 hover:bg-yellow-300"
   onClick={() => setOpenIndex(openIndex === index ? null : index)}
 >
             <span className="text-lg font-semibold text-fuchsia-700">{item.title}</span>
@@ -38,21 +38,23 @@ const Accordion = ({ items }) => {
             <div className="overflow-hidden transition-all duration-200">
               <div className="p-4 rounded-md ">
                 <div
-                  className="flex flex-col md:flex-row items-center md:items-start"
+                  className="flex flex-col md:flex-row flex-wrap items-center md:items-start"
                   style={{
-                    border: "3pt solid gold",
+                    border: "1pt solid gold",
                     borderRadius: "10px",
                     backgroundColor: 'inherit',
                     boxShadow: "2px 2px 5px rgba(0, 0, 0, 0.2)",
                     padding: '5%'
                   }}
                 >
-                  <p className="text-lg mb-4 md:w-2/3 md:pr-8 text-white" style={{fontFamily: 'cursive', fontSize:'1.5rem'}}>{item.desc}</p>
                   <img
                     src={item.image}
                     alt="Play Paw Logo"
                     className="rounded-lg md:w-1/3"
                   />
+                  <br/>
+                  <p className="text-lg mb-4 md:w-auto md:pr-8 text-white" style={{fontFamily: 'cursive', fontSize:'1.5rem'}}>{item.desc}</p>
+                  
                 </div>
               </div>
             </div>

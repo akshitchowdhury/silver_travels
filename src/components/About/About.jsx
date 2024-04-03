@@ -1,67 +1,65 @@
-import React from 'react'
+import React from "react";
 
-import about from '../../assets/home3.jpg'
-import Nav from '../Navbar/Nav'
-import Footer from '../Footer/Footer'
-import './About.css'
-import SocialIcons from '../Social Icons/SocialIcons'
-import AboutWhyUs from './AboutWhyUs'
+import about from "../../assets/home3.jpg";
+import Nav from "../Navbar/Nav";
+import Footer from "../Footer/Footer";
+import "./About.css";
+import SocialIcons from "../Social Icons/SocialIcons";
+import AboutWhyUs from "./AboutWhyUs";
 const About = () => {
   return (
-    <>  
-      
+    <>
       <div>
-      
-        <div className="about" >
-        <Nav/>
-        <SocialIcons/>
-      <div
-        className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-start"
-        style={{ padding: "4%" }}
-      >
-        <p
-          className="paraText text-white text-lg mb-2 md:mb-4"
-          style={{ width: "100%", color:'white' }}
-        >
-          At Play Paw, we believe in creating a world of fun and excitement for
-          kids! Our playzone area is designed to be a haven of joy, where
-          children can unleash their imagination and energy in a safe and
-          vibrant environment.
-          <br />
-          <br />
-          With colorful play structures, interactive games, and engaging
-          activities, Play Paw is the ultimate destination for kids to laugh,
-          play, and make new friends. Our dedicated staff ensures that every
-          visit is filled with unforgettable moments and endless smiles.
-          <br />
-          <br />
-          Whether it's a birthday party, a family outing, or just a day of fun,
-          Play Paw is the perfect place for kids to explore, learn, and grow.
-          Join us today and let the adventure begin!
-        </p>
-        <div
-          
-          alt="placeholder"
-          className="eventImg md:w-full"
-          style={{
-            height: "400px",
-            borderRadius: "5%",
-            marginLeft: "4%",
-            width: "100%",
-            backgroundColor: 'inherit',
-            
-          }}
-        />
+        <div className="about">
+          <Nav />
+          <SocialIcons />
+          <div
+            className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-start"
+            style={{ padding: "4%" }}
+          >
+            <p
+              className="paraText text-white text-lg mb-2 md:mb-4"
+              style={{ width: "100%", color: "white" }}
+            >
+              Welcome to Silver Line Travels! At Silver Line Travels, we're
+              passionate about crafting unforgettable travel experiences for our
+              valued customers. With a commitment to excellence and a dedication
+              to customer satisfaction, we strive to make every journey a
+              memorable adventure.
+              <br />
+              <br />
+              Our journey began with a simple belief: travel should be more than
+              just reaching a destination; it should be about creating lasting
+              memories and enriching experiences. That's why we go above and
+              beyond to ensure that every aspect of your travel with us is
+              meticulously planned and seamlessly executed.
+              <br />
+              <br />
+              With Silver Line Travels, the world is yours to explore. Whether
+              you're seeking adventure in far-flung destinations, relaxation on
+              sun-kissed beaches, or cultural immersion in bustling cities, we
+              offer a wide range of destinations to suit every traveler's taste
+              and interests. And with our customizable travel experiences, we
+              tailor each journey to cater to your individual preferences,
+              ensuring that your trip is uniquely yours.
+            </p>
+            <div
+              alt="placeholder"
+              className="eventImg md:w-full"
+              style={{
+                borderRadius: "5%",
+                marginLeft: "4%",
+                width: "80%",
+                backgroundColor: "inherit",
+              }}
+            />
+          </div>
+        </div>
       </div>
-
-      
-    </div>      
-    </div>
-    <AboutWhyUs/>
-    <Footer/>
+      <AboutWhyUs />
+      <Footer />
     </>
+  );
+};
 
-  )
-}
-
-export default About
+export default About;

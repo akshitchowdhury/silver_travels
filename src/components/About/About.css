@@ -10,6 +10,10 @@
 
 .eventImg{
 
-    background-image: linear-gradient(to right, inherit, rgb(228, 185, 120)); /* Adjust the RGB values as needed */
+    
     box-shadow: 4px 6px 10px rgba(10, 10, 10, 0.5);
+    background-image: url("../../assets/g20.jpg");
+    background-size: contain;
+    height: 300px;
+
 }
