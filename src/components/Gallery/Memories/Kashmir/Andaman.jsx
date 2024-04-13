@@ -18,11 +18,11 @@ const images = [
 ]
 const Andaman = () => {
   return (
-    <div className='kashmir' style={{ height: 'auto', padding: '2%', backgroundImage: 'linear-gradient(to bottom right, #43be9f,#f2fbf8)' }}>
+    <div className='kashmir' style={{ height: 'auto', padding: '2%', }}>
       <Nav/>
       <div
         className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-start"
-        style={{ padding: "4%" }}
+        style={{ padding: "6%", marginTop: '2%',borderRadius: '2%' , backgroundImage: 'linear-gradient(to bottom right, #43be9f,#f2fbf8)'}}
       >
         <p
           className="paraText text-white text-lg mb-2 md:mb-4"

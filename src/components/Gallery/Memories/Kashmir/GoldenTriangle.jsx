@@ -2,6 +2,7 @@ import React from 'react'
 import Nav from '../../../Navbar/Nav'
 
 import kashmir from '../../../../assets/galleryMemories/gt1.jpg'
+import gtBg from '../../../../assets/galleryMemories/gtBg.jpg'
 import a1 from '../../../../assets/galleryMemories/gt1.jpg'
 import a2 from '../../../../assets/galleryMemories/gt3.jpg'
 import a3 from '../../../../assets/galleryMemories/gt2.jpg'
@@ -17,11 +18,11 @@ const images = [
 ]
 const GoldenTriangle = () => {
   return (
-    <div className='kashmir' style={{ height: 'auto', padding: '2%', backgroundImage: 'linear-gradient(to bottom right, #c99905, #BF10D6)' }}>
+    <div className='kashmir' style={{ height: 'auto', padding: '2%', }}>
       <Nav/>
       <div
         className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-start"
-        style={{ padding: "4%" }}
+        style={{  padding: "6%", marginTop: '2%',borderRadius: '2%', backgroundImage: 'linear-gradient(to bottom right, #C2BFB5, #BF10D6)'}}
       >
         <p
           className="paraText text-white text-lg mb-2 md:mb-4"
@@ -44,11 +45,6 @@ const GoldenTriangle = () => {
           only to make up for lost time – just that again, their options were
           limited. Children and grandchildren had no time for them, even as they
           would live under one roof. 
-          <br/>
-          That’s when we stepped in and made it our
-          mission to celebrate the silver strands marking those in the autumn of
-          their lives. Hence SILVERLINE TOURS & TRAVELS. Here’s a glimpse of how
-          we have moved on since then
         </p>
         <img
           src={kashmir}
