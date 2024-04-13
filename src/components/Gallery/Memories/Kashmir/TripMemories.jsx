@@ -35,15 +35,14 @@ export default function TripMemories() {
 
  
   return (
-    <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
+    <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' , padding: '4%'}}>
       {/* First Row */}
-      
       
       <div
         style={{
           flex: '0 0 100%',
           maxWidth: '50%',
-          padding: 10,
+          
           boxSizing: 'border-box',
           position: 'relative',
           overflow: 'hidden',

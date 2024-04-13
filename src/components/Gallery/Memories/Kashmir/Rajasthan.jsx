@@ -17,15 +17,15 @@ const images = [
 ]
 const Rajasthan = () => {
   return (
-    <div className='kashmir' style={{height: '120vh'}}>
-      <Nav/>
+    <div className='kashmir'  style={{ height: 'auto', padding: '2%', backgroundImage: 'linear-gradient(to bottom right, #e5d60d,#f2fbf8)' }}>
+    <Nav/>
       <div
         className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-start"
         style={{ padding: "4%" }}
       >
         <p
-          className="paraText text-white text-lg mb-2 md:mb-4"
-          style={{ width: "100%", color: "black" }}
+          className="paraText font-sans font-medium text-white text-lg mb-2 md:mb-4"
+          style={{ width: "100%" }}
         >
           So, why SILVERLINE TOURS & TRAVELS? Ours is a small, low-cost
           enterprise committed to providing value-for-money without compromising

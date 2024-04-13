@@ -18,7 +18,7 @@ const images = [
 ]
 const Andaman = () => {
   return (
-    <div className='kashmir' style={{height: '120vh'}}>
+    <div className='kashmir' style={{ height: 'auto', padding: '2%', backgroundImage: 'linear-gradient(to bottom right, #43be9f,#f2fbf8)' }}>
       <Nav/>
       <div
         className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-start"

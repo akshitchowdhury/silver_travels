@@ -17,7 +17,7 @@ const images = [
 ]
 const GoldenTriangle = () => {
   return (
-    <div className='kashmir' style={{height: '120vh'}}>
+    <div className='kashmir' style={{ height: 'auto', padding: '2%', backgroundImage: 'linear-gradient(to bottom right, #c99905, #BF10D6)' }}>
       <Nav/>
       <div
         className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-start"
