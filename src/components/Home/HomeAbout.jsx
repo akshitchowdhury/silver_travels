@@ -52,25 +52,31 @@ const HomeAbout = () => {
         </div>
 
         <p className="paraText text-lg mb-2 md:mb-4">
-          At Silver Line Travels, we're passionate about crafting unforgettable
-          travel experiences for our valued customers. With a commitment to
-          excellence and a dedication to customer satisfaction, we strive to
-          make every journey a memorable adventure
+          We are a one-stop shop for travel solutions. Well, everybody claims
+          so. Every travel agent, tour operator or consultant will promise you
+          the moon, a hassle-free trip up and back. In practice, you are herded
+          into a plane, train, bus, tram (or whatever), taken on a whirlwind
+          tour, made to travel by night and shown some sights by day and at the
+          end of it all, dumped back -- much to your relief. 
           <br />
+          <br />At best, you’d have
+          had a whistlestop ‘sighting’ trip (rather than sight-seeing) and
+          maybe, a few selfies taken. And of course, you are charged a bomb. We
+          do none of that. We make no tall promises, no grand plans and do not
+          race against time. We keep things simple, on a realistic level. We
+          prefer to pace your travel comfortably such that you are able to soak
+          in the atmosphere of every place you visit, meet new people, make
+          friends, enjoy the local cuisine, sights and sounds… and return with
+          lasting memories. You don’t have a job to finish. You are on vacation,
+          after all.
           <br />
-          Our journey began with a simple belief: travel should be more than
-          just reaching a destination; it should be about creating lasting
-          memories and enriching experiences. That's why we go above and beyond
-          to ensure that every aspect of your travel with us is meticulously
-          planned and seamlessly executed.
-          <br />
-          <br />
+          {/* <br />
           Traveling with Silver Line Travels isn't just about reaching your
           destination; it's about the journey itself. It's about discovering new
           cultures, making lifelong memories, and forging connections with
           fellow travelers. So whether you're embarking on a solo adventure, a
           romantic getaway, or a family vacation, trust Silver Line Travels to
-          make your travel dreams come true.
+          make your travel dreams come true. */}
         </p>
       </div>
     </div>

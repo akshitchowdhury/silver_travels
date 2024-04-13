@@ -11,6 +11,8 @@ const Accordion = ({ items }) => {
 
   return (
     <div className="w-full" style={{ padding: "4%" }}>
+
+    <h1 className="text-white text-lg mb-2 md:mb-4">So Why choose US?</h1>
       {items.map((item, index) => (
         <div key={index} className="mb-2">
         <button

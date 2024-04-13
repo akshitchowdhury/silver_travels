@@ -7,6 +7,7 @@ import i2 from "../../assets/g3.jpg";
 import i3 from "../../assets/g4.webp";
 import i4 from "../../assets/g6.jpg";
 import i5 from "../../assets/g5.jpg";
+import PicFlow from "../Gallery/PicFlow/PicFlow";
 
 const items = [
   {
@@ -49,28 +50,34 @@ const AboutWhyUs = () => {
       }}
     >
       <div className="flex flex-col items-center justify-center md:items-start md:justify-start md:w-1/2 md:p-8">
+        
         <p
           className="paraText text-white text-lg mb-4"
           style={{ color: "white" }}
         >
-          Welcome to Silver Line Travels! At Silver Line Travels, we're
-          passionate about crafting unforgettable travel experiences for our
-          valued customers. With a commitment to excellence and a dedication to
-          customer satisfaction, we strive to make every journey a memorable
-          adventure.
+          So, why SILVERLINE TOURS & TRAVELS? Ours is a small, low-cost
+          enterprise committed to providing value-for-money without compromising
+          on comfort. As ardent travelers ourselves, we believe in not only
+          sharing the joys of exploring new places and cultures but also pass on
+          the benefits of group discounts, concessions, incentives, etc. to our
+          customers so that the tour does not burn a hole in your pocket. There
+          is a reason behind this.
+          <br/>
+          <br/>
+           When we started out in 2015, our customers
+          were mainly groups of senior citizens – retirees, pensioners and
+          elders and housewives with limited funds, but plenty of time on hand.
+          We also discovered that in all their lives, their physical exposure to
+          the ‘world beyond’ was limited. These were people eager to set out, if
+          only to make up for lost time – just that again, their options were
+          limited. Children and grandchildren had no time for them, even as they
+          would live under one roof. 
           <br />
           <br />
-          Our journey began with a simple belief: travel should be more than
-          just reaching a destination; it should be about creating lasting
-          memories and enriching experiences. That's why we go above and beyond
-          to ensure that every aspect of your travel with us is meticulously
-          planned and seamlessly executed.
-          <br />
-          <br />
-          We understand that your time and resources are valuable, which is why
-          we strive to offer excellent value for your money. With competitive
-          prices and uncompromising quality, we make luxury travel accessible to
-          all.
+          That’s when we stepped in and made it our
+          mission to celebrate the silver strands marking those in the autumn of
+          their lives. Hence SILVERLINE TOURS & TRAVELS. Here’s a glimpse of how
+          we have moved on since then.
         </p>
       </div>
       <div className="w-full md:w-1/2 p-4 md:p-0">

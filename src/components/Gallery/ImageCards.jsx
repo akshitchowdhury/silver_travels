@@ -13,6 +13,7 @@ import c11 from "../../assets/g18.jpeg";
 import c12 from "../../assets/g15.jpg";
 import "./ImageCards.css";
 import { Link } from "react-router-dom";
+import PicFlow from "./PicFlow/PicFlow";
 
 const ImageCard = ({ linkUrl, imageUrl, text }) => {
   return (
@@ -72,6 +73,7 @@ const ImageCards = () => {
   return (
     <>
       <div className="block">
+      
         <div className="content">
           <div
             className="flex flex-col items-center justify-center h-screen"

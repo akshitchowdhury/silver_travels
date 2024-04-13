@@ -51,6 +51,8 @@ export default function Nav() {
                         </li>
                         <li><Link className="text-black" to="/gallery">Gallery</Link>
                         </li>
+                        <li><Link className="text-black" to="/kashmir">Test</Link>
+                        </li>
                         <li><Link className="text-black" to="/contact">Contact</Link>
                         </li>
                     </ul>
