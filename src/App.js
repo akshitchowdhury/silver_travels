@@ -14,7 +14,8 @@ import Nav from "./components/Navbar/Nav";
 import Services from "./components/Services/Services";
 import Gallery from "./components/Gallery/Gallery";
 import PicFlow from "./components/Gallery/PicFlow/PicFlow";
-import Kashmir from "./components/Gallery/Memories/Kashmir/Kashmir";
+import TripMemories from "./components/Gallery/Memories/Kashmir/TripMemories";
+import Kasmir from "./components/Gallery/Memories/Kashmir/Kasmir";
 
 function App() {
   const routeClass = {
@@ -32,7 +33,11 @@ function App() {
             <Route path="/home" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/gallery" element={<Gallery/>} />
-            <Route path="/kashmir" element={<Kashmir/>} />
+            <Route path="/tripmemories" element={<TripMemories/>} />
+            <Route path="/kashmir" element={<Kasmir/>} />
+            <Route path="/goldentriangle" element={<GoldenTriangle/>} />
+            <Route path="/andaman" element={<Andaman/>} />
+            <Route path="/kerela" element={<Kerela/>} />
             <Route path="/services" element={<Services/>} />
             <Route path="/contact" element={<Contact />} />
           </Routes>

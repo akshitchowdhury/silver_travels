@@ -6,7 +6,7 @@ import './Gallery.css'
 import ImageCards from './ImageCards'
 import ITransition from './Transition/ITransition'
 
-import Kashmir from './Memories/Kashmir/Kashmir'
+import TripMemories from './Memories/Kashmir/TripMemories'
 const Gallery = () => {
   return (
     <>
@@ -16,7 +16,7 @@ const Gallery = () => {
     </div>  
     {/* <ImageCards/>
      */}
-     <Kashmir/>
+     <TripMemories/>
      <div className="transition" style={{padding: '5%'}}>
      <h1 className=" tracking-widest border-fuchsia-900 text-fuchsia-900 text-center">
               Create unforgettable memories and cherished moments with Silver

@@ -4,8 +4,9 @@ import i1 from '../../../../assets/galleryMemories/keralaBG.jpg';
 import i2 from '../../../../assets/galleryMemories/gtBg.jpg';
 import i3 from '../../../../assets/galleryMemories/adBg.jpg';
 import i4 from '../../../../assets/galleryMemories/rjBg.jpg';
+import { Link } from 'react-router-dom';
 
-export default function Kashmir() {
+export default function TripMemories() {
   // State to track hover
   const [isHovered1, setIsHovered1] = useState(false);
   const [isHovered2, setIsHovered2] = useState(false);
@@ -36,6 +37,8 @@ export default function Kashmir() {
   return (
     <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
       {/* First Row */}
+      
+      
       <div
         style={{
           flex: '0 0 100%',
@@ -46,6 +49,7 @@ export default function Kashmir() {
           overflow: 'hidden',
         }}
       >
+      <Link to= '/kashmir' >
         <animated.div
           onMouseEnter={() => setIsHovered1(true)}
           onMouseLeave={() => setIsHovered1(false)}
@@ -73,6 +77,7 @@ export default function Kashmir() {
                 color: 'white',
                 fontSize: 20,
                 borderRadius: 8,
+                cursor: 'pointer',
                 backdropFilter: 'blur(10px)',
                 transition: 'background 3.3s ease-in-out, backdrop-filter 3.3s ease-in-out',
               pointerEvents: isHovered1 ? 'auto' : 'none',
@@ -80,10 +85,13 @@ export default function Kashmir() {
             >
               Kerela
             </animated.div>
+            
+            
           )}
         </animated.div>
+        </Link>
       </div>
-
+      
       {/* Second image */}
       <div
         style={{
@@ -119,6 +127,7 @@ export default function Kashmir() {
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
+                cursor: 'pointer',
                 color: 'white',
                 fontSize: 20,
                 borderRadius: 8,
@@ -148,7 +157,7 @@ export default function Kashmir() {
           style={{
             width: '100%',
             height: screenWidth < 768 ? 'auto' : 350, // Adjust height for smaller screens
-            maxHeight: screenWidth < 768 ? 250 : 350, // Adjust maxHeight for smaller screens
+            maxHeight: screenWidth < 768 ? 'auto' : 350, // Adjust maxHeight for smaller screens
             borderRadius: 20,
             ...springsy,
           }}
@@ -166,6 +175,7 @@ export default function Kashmir() {
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
+                cursor: 'pointer',
                 color: 'white',
                 fontSize: 20,
                 
@@ -215,6 +225,7 @@ export default function Kashmir() {
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
+                cursor: 'pointer',
                 color: 'white',
                 fontSize: 20,
                 borderRadius: 8,
