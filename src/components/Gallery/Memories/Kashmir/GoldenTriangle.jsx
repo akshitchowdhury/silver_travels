@@ -58,8 +58,9 @@ const GoldenTriangle = () => {
           }}
         />
       </div>
-      
+      <div style={{   marginTop: '2%',borderRadius: '2%', backgroundImage: 'linear-gradient(to bottom right, #C2BFB5, #D6107D)'}}>
       <ImageGrid source={images}/>
+      </div>
     </div>
   )
 }
