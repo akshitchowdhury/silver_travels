@@ -17,7 +17,6 @@ const Gallery = () => {
     {/* <ImageCards/>
      */}
      <Kashmir/>
-
      <div className="transition" style={{padding: '5%'}}>
      <h1 className=" tracking-widest border-fuchsia-900 text-fuchsia-900 text-center">
               Create unforgettable memories and cherished moments with Silver
