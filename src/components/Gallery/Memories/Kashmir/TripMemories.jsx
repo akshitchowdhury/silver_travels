@@ -49,7 +49,7 @@ export default function TripMemories() {
           overflow: 'hidden',
         }}
       >
-      <Link to= '/kashmir' >
+      <Link to= '/kerela' >
         <animated.div
           onMouseEnter={() => setIsHovered1(true)}
           onMouseLeave={() => setIsHovered1(false)}
@@ -93,6 +93,7 @@ export default function TripMemories() {
       </div>
       
       {/* Second image */}
+
       <div
         style={{
           flex: '0 0 100%',
@@ -103,6 +104,7 @@ export default function TripMemories() {
           overflow: 'hidden',
         }}
       >
+      <Link to= '/goldentriangle' >
         <animated.div
           onMouseEnter={() => setIsHovered2(true)}
           onMouseLeave={() => setIsHovered2(false)}
@@ -138,9 +140,11 @@ export default function TripMemories() {
             </animated.div>
           )}
         </animated.div>
+        </Link>
       </div>
 
       {/* Third image */}
+
       <div
         style={{
           flex: '0 0 100%',
@@ -151,6 +155,7 @@ export default function TripMemories() {
           overflow: 'hidden',
         }}
       >
+      <Link to= '/andaman'>
         <animated.div
           onMouseEnter={() => setIsHovered3(true)}
           onMouseLeave={() => setIsHovered3(false)}
@@ -188,6 +193,7 @@ export default function TripMemories() {
             </animated.div>
           )}
         </animated.div>
+        </Link>
       </div>
 
       {/* Fourth image */}
@@ -201,6 +207,7 @@ export default function TripMemories() {
           overflow: 'hidden',
         }}
       >
+      <Link to= '/rajasthan'>
         <animated.div
           onMouseEnter={() => setIsHovered4(true)}
           onMouseLeave={() => setIsHovered4(false)}
@@ -236,6 +243,7 @@ export default function TripMemories() {
             </animated.div>
           )}
         </animated.div>
+        </Link>
       </div>
     </div>
   );

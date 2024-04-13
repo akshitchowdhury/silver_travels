@@ -16,6 +16,10 @@ import Gallery from "./components/Gallery/Gallery";
 import PicFlow from "./components/Gallery/PicFlow/PicFlow";
 import TripMemories from "./components/Gallery/Memories/Kashmir/TripMemories";
 import Kasmir from "./components/Gallery/Memories/Kashmir/Kasmir";
+import GoldenTriangle from "./components/Gallery/Memories/Kashmir/GoldenTriangle";
+import Andaman from "./components/Gallery/Memories/Kashmir/Andaman";
+import Kerela from "./components/Gallery/Memories/Kashmir/Kerela";
+import Rajasthan from "./components/Gallery/Memories/Kashmir/Rajasthan";
 
 function App() {
   const routeClass = {
@@ -34,10 +38,11 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/gallery" element={<Gallery/>} />
             <Route path="/tripmemories" element={<TripMemories/>} />
-            <Route path="/kashmir" element={<Kasmir/>} />
+            {/* <Route path="/kashmir" element={<Kasmir/>} /> */}
             <Route path="/goldentriangle" element={<GoldenTriangle/>} />
             <Route path="/andaman" element={<Andaman/>} />
             <Route path="/kerela" element={<Kerela/>} />
+            <Route path="/rajasthan" element={<Rajasthan/>} />
             <Route path="/services" element={<Services/>} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
