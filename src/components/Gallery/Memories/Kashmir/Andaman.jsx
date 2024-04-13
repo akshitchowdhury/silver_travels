@@ -3,6 +3,19 @@ import Nav from '../../../Navbar/Nav'
 
 import kashmir from '../../../../assets/galleryMemories/ad1.jpg'
 
+import a1 from '../../../../assets/galleryMemories/ad1.jpg'
+import a2 from '../../../../assets/galleryMemories/ad2.jpg'
+import a3 from '../../../../assets/galleryMemories/ad3.jpg'
+import a4 from '../../../../assets/galleryMemories/ad4.jpg'
+import ImageGrid from './ImageGrid'
+
+
+const images = [
+    {image: a1},
+    {image: a2},
+    {image: a3},
+    {image: a4}
+]
 const Andaman = () => {
   return (
     <div className='kashmir' style={{height: '120vh'}}>
@@ -50,6 +63,11 @@ const Andaman = () => {
           }}
         />
       </div>
+
+        
+        <ImageGrid source={images}/>
+
+
     </div>
   )
 }

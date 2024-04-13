@@ -2,7 +2,19 @@ import React from 'react'
 import Nav from '../../../Navbar/Nav'
 
 import kashmir from '../../../../assets/galleryMemories/gt1.jpg'
+import a1 from '../../../../assets/galleryMemories/gt1.jpg'
+import a2 from '../../../../assets/galleryMemories/gt3.jpg'
+import a3 from '../../../../assets/galleryMemories/gt2.jpg'
+import a4 from '../../../../assets/galleryMemories/gt1.jpg'
+import ImageGrid from './ImageGrid'
 
+
+const images = [
+    {image: a1},
+    {image: a2},
+    {image: a3},
+    {image: a4}
+]
 const GoldenTriangle = () => {
   return (
     <div className='kashmir' style={{height: '120vh'}}>
@@ -50,6 +62,8 @@ const GoldenTriangle = () => {
           }}
         />
       </div>
+      
+      <ImageGrid source={images}/>
     </div>
   )
 }

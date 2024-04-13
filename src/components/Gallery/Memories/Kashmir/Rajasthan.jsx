@@ -2,7 +2,19 @@ import React from 'react'
 import Nav from '../../../Navbar/Nav'
 
 import kashmir from '../../../../assets/galleryMemories/rj1.jpg'
+import a1 from '../../../../assets/galleryMemories/rj4.jpg'
+import a2 from '../../../../assets/galleryMemories/rj3.jpg'
+import a3 from '../../../../assets/galleryMemories/rj2.jpg'
+import a4 from '../../../../assets/galleryMemories/rj1.jpg'
+import ImageGrid from './ImageGrid'
 
+
+const images = [
+    {image: a1},
+    {image: a2},
+    {image: a3},
+    {image: a4}
+]
 const Rajasthan = () => {
   return (
     <div className='kashmir' style={{height: '120vh'}}>
@@ -50,6 +62,9 @@ const Rajasthan = () => {
           }}
         />
       </div>
+
+      
+      <ImageGrid source={images}/>
     </div>
   )
 }
