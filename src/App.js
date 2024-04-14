@@ -20,6 +20,8 @@ import GoldenTriangle from "./components/Gallery/Memories/Kashmir/GoldenTriangle
 import Andaman from "./components/Gallery/Memories/Kashmir/Andaman";
 import Kerela from "./components/Gallery/Memories/Kashmir/Kerela";
 import Rajasthan from "./components/Gallery/Memories/Kashmir/Rajasthan";
+import Singapore from "./components/Gallery/Memories/Kashmir/Singapore";
+import Northeast from "./components/Gallery/Memories/Kashmir/Northeast";
 
 function App() {
   const routeClass = {
@@ -43,6 +45,8 @@ function App() {
             <Route path="/andaman" element={<Andaman/>} />
             <Route path="/kerela" element={<Kerela/>} />
             <Route path="/rajasthan" element={<Rajasthan/>} />
+            <Route path="/malaysia" element={<Singapore/>} />
+            <Route path="/northeast" element={<Northeast/>} />
             <Route path="/services" element={<Services/>} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
