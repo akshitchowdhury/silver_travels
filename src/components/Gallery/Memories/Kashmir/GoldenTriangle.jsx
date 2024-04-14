@@ -8,6 +8,7 @@ import a2 from '../../../../assets/galleryMemories/gt3.jpg'
 import a3 from '../../../../assets/galleryMemories/gt2.jpg'
 import a1 from '../../../../assets/galleryMemories/gt4.jpg'
 import ImageGrid from './ImageGrid'
+import Footer from '../../../Footer/Footer'
 
 
 const images = [
@@ -18,6 +19,7 @@ const images = [
 ]
 const GoldenTriangle = () => {
   return (
+    <>
     <div className='kashmir' style={{ height: 'auto', padding: '2%', }}>
       <Nav/>
       <div
@@ -55,6 +57,8 @@ const GoldenTriangle = () => {
       <ImageGrid source={images}/>
       </div>
     </div>
+    <Footer/>
+    </>
   )
 }
 

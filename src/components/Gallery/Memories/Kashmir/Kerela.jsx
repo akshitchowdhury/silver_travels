@@ -8,6 +8,7 @@ import a2 from '../../../../assets/galleryMemories/kl2.jpg'
 import a3 from '../../../../assets/galleryMemories/kl3.jpg'
 import a4 from '../../../../assets/galleryMemories/kl4.jpg'
 import ImageGrid from './ImageGrid'
+import Footer from '../../../Footer/Footer'
 
 
 const images = [
@@ -18,6 +19,7 @@ const images = [
 ]
 const Kerela = () => {
   return (
+    <>
     <div className='kashmir' style={{ height: 'auto', padding: '2%',  }}>
   {/* Content goes here */}
 
@@ -69,6 +71,8 @@ const Kerela = () => {
       
       <ImageGrid source={images}/>
     </div>
+    <Footer/>
+    </>
   )
 }
 

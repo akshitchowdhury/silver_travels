@@ -7,6 +7,7 @@ import a2 from '../../../../assets/galleryMemories/rj3.jpg'
 import a3 from '../../../../assets/galleryMemories/rj2.jpg'
 import a4 from '../../../../assets/galleryMemories/rj1.jpg'
 import ImageGrid from './ImageGrid'
+import Footer from '../../../Footer/Footer'
 
 
 const images = [
@@ -17,6 +18,7 @@ const images = [
 ]
 const Rajasthan = () => {
   return (
+    <>
     <div className='kashmir'  style={{ height: 'auto', padding: '2%',  }}>
     <Nav/>
       <div
@@ -66,6 +68,8 @@ const Rajasthan = () => {
       
       <ImageGrid source={images}/>
     </div>
+          <Footer/>
+    </>
   )
 }
 

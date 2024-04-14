@@ -8,6 +8,7 @@ import a2 from '../../../../assets/galleryMemories/ml2.jpg'
 import a3 from '../../../../assets/galleryMemories/ml3.jpg'
 import a1 from '../../../../assets/galleryMemories/ml4.jpg'
 import ImageGrid from './ImageGrid'
+import Footer from '../../../Footer/Footer'
 
 
 const images = [
@@ -18,6 +19,7 @@ const images = [
 ]
 const Singapore = () => {
   return (
+    <>
     <div className='kashmir' style={{ height: 'auto', padding: '2%', }}>
       <Nav/>
       <div
@@ -55,6 +57,8 @@ const Singapore = () => {
       <ImageGrid source={images}/>
       </div>
     </div>
+    <Footer/>
+    </>
   )
 }
 
