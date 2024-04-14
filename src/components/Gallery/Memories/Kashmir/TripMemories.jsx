@@ -4,6 +4,8 @@ import i1 from '../../../../assets/galleryMemories/keralaBG.jpg';
 import i2 from '../../../../assets/galleryMemories/gtBg.jpg';
 import i3 from '../../../../assets/galleryMemories/adBg.jpg';
 import i4 from '../../../../assets/galleryMemories/rjBg.jpg';
+import i6 from '../../../../assets/galleryMemories/btBg.jpg';
+import i5 from '../../../../assets/galleryMemories/sgBg.jpg';
 import { Link } from 'react-router-dom';
 
 export default function TripMemories() {
@@ -12,6 +14,8 @@ export default function TripMemories() {
   const [isHovered2, setIsHovered2] = useState(false);
   const [isHovered3, setIsHovered3] = useState(false);
   const [isHovered4, setIsHovered4] = useState(false);
+  const [isHovered5, setIsHovered5] = useState(false);
+  const [isHovered6, setIsHovered6] = useState(false);
 
    // Define the from and to positions for small and large screen sizes
    const smallScreenFrom = { x: 0 };
@@ -244,6 +248,107 @@ export default function TripMemories() {
         </animated.div>
         </Link>
       </div>
+
+      
+      <div
+        style={{
+          flex: '0 0 100%',
+          maxWidth: '50%',
+          padding: 30,
+          boxSizing: 'border-box',
+          position: 'relative',
+          overflow: 'hidden',
+        }}
+      >
+      <Link to= '/malaysia'>
+        <animated.div
+          onMouseEnter={() => setIsHovered5(true)}
+          onMouseLeave={() => setIsHovered5(false)}
+          style={{
+            width: '100%',
+            height: screenWidth < 768 ? 'auto' : 350, // Adjust height for smaller screens
+            maxHeight: screenWidth < 768 ? 250 : 350, // Adjust maxHeight for smaller screens
+            borderRadius: 8,
+            ...springsy,
+          }}
+        >
+          <img src={i5} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 8 }} />
+          {isHovered5 && (
+            <animated.div
+              style={{
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                width: '100%',
+                height: '100%',
+                background: 'rgba(0, 0, 0, 0.5)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                cursor: 'pointer',
+                color: 'white',
+                fontSize: 20,
+                borderRadius: 8,
+                backdropFilter: 'blur(10px)',
+              }}
+            >
+              Singapore/Malaysia
+            </animated.div>
+          )}
+        </animated.div>
+        </Link>
+      </div>
+      
+      <div
+        style={{
+          flex: '0 0 100%',
+          maxWidth: '50%',
+          padding: 30,
+          boxSizing: 'border-box',
+          position: 'relative',
+          overflow: 'hidden',
+        }}
+      >
+      <Link to= '/bhutan'>
+        <animated.div
+          onMouseEnter={() => setIsHovered6(true)}
+          onMouseLeave={() => setIsHovered6(false)}
+          style={{
+            width: '100%',
+            height: screenWidth < 768 ? 'auto' : 350, // Adjust height for smaller screens
+            maxHeight: screenWidth < 768 ? 250 : 350, // Adjust maxHeight for smaller screens
+            borderRadius: 8,
+            ...springsy,
+          }}
+        >
+          <img src={i6} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 8 }} />
+          {isHovered6 && (
+            <animated.div
+              style={{
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                width: '100%',
+                height: '100%',
+                background: 'rgba(0, 0, 0, 0.5)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                cursor: 'pointer',
+                color: 'white',
+                fontSize: 20,
+                borderRadius: 8,
+                backdropFilter: 'blur(10px)',
+              }}
+            >
+              Noth-East
+            </animated.div>
+          )}
+        </animated.div>
+        </Link>
+      </div>
+
+
     </div>
   );
 }

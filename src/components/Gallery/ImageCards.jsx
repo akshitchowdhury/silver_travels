@@ -89,13 +89,7 @@ const ImageCards = () => {
         </div>
 
         <div className="cardBox flex flex-col lg:flex-row">
-  {/* <div className="lg:w-2/3 lg:pr-4">
-    <p className="text-center lg:text-left">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id ipsum,
-      nostrum atque, nemo esse pariatur recusandae eaque maxime voluptas eveniet
-      temporibus deleniti eius explicabo illo sed mollitia, iure nobis modi.
-    </p>
-  </div> */}
+  
   <div className="Icontainer lg:w-auto">
     {cards.map((card, index) => (
       <ImageCard key={index} imageUrl={card.imageUrl} />

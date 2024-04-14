@@ -1,17 +1,17 @@
 import c1 from "../../../assets/g1.jpg";
 import c2 from "../../../assets/g7.webp";
-import c3 from "../../../assets/g3.jpg";
-import c4 from "../../../assets/g2.jpg";
-import c5 from "../../../assets/g12.jpg";
-import c6 from "../../../assets/g5.jpg";
-import c7 from "../../../assets/g6.jpg";
+import c3 from "../../../assets/g26.jpg";
+import c4 from "../../../assets/g23.jpg";
+import c5 from "../../../assets/g21.jpg";
+import c6 from "../../../assets/g29.webp";
+import c7 from "../../../assets/g28.jpg";
 import c8 from "../../../assets/g8.webp";
-import c9 from "../../../assets/g14.jpg";
-import c10 from "../../../assets/g11.jpg";
+import c9 from "../../../assets/g22.webp";
+import c10 from "../../../assets/g24.jpg";
 import c11 from "../../../assets/g18.jpeg";
 import c12 from "../../../assets/g16.jpg";
-import c13 from "../../../assets/g4.webp";
-import c14 from "../../../assets/g10.jpg";
+import c13 from "../../../assets/g25.jpg";
+import c14 from "../../../assets/g27.webp";
 
 const data = [
   { css: c1, height: 500 },

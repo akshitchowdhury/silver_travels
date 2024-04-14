@@ -1,12 +1,12 @@
 import React from 'react'
 import Nav from '../../../Navbar/Nav'
 
-import kashmir from '../../../../assets/galleryMemories/gt1.jpg'
-import gtBg from '../../../../assets/galleryMemories/gtBg.jpg'
-import a1 from '../../../../assets/galleryMemories/gt1.jpg'
+import kashmir from '../../../../assets/galleryMemories/gtBg2.jpg'
+
+import a4 from '../../../../assets/galleryMemories/gt6.jpg'
 import a2 from '../../../../assets/galleryMemories/gt3.jpg'
 import a3 from '../../../../assets/galleryMemories/gt2.jpg'
-import a4 from '../../../../assets/galleryMemories/gt1.jpg'
+import a1 from '../../../../assets/galleryMemories/gt4.jpg'
 import ImageGrid from './ImageGrid'
 
 
@@ -26,7 +26,7 @@ const GoldenTriangle = () => {
       >
         <p
           className="paraText text-white text-lg mb-2 md:mb-4"
-          style={{ width: "100%", color: "black" }}
+          style={{ width: "auto", color: "black" }}
         >
           So, why SILVERLINE TOURS & TRAVELS? Ours is a small, low-cost
           enterprise committed to providing value-for-money without compromising
@@ -36,15 +36,7 @@ const GoldenTriangle = () => {
           customers so that the tour does not burn a hole in your pocket. There
           is a reason behind this. 
           <br />
-          <br />
-          When we started out in 2015, our customers
-          were mainly groups of senior citizens – retirees, pensioners and
-          elders and housewives with limited funds, but plenty of time on hand.
-          We also discovered that in all their lives, their physical exposure to
-          the ‘world beyond’ was limited. These were people eager to set out, if
-          only to make up for lost time – just that again, their options were
-          limited. Children and grandchildren had no time for them, even as they
-          would live under one roof. 
+          
         </p>
         <img
           src={kashmir}
@@ -54,11 +46,12 @@ const GoldenTriangle = () => {
             height: "400px",
             borderRadius: "5%",
             marginLeft: "4%",
-            width: "100%",
+            width: "auto",
+            maxWidth: 'auto'
           }}
         />
       </div>
-      <div style={{   marginTop: '2%',borderRadius: '2%', backgroundImage: 'linear-gradient(to bottom right, #C2BFB5, #D6107D)'}}>
+      <div style={{   marginTop: '2%', padding: '6%'}}>
       <ImageGrid source={images}/>
       </div>
     </div>
