@@ -22,9 +22,10 @@ const Home = () => {
         <nav className="bg-cover">
         <Nav/>
         <SocialIcons/>
-        <h1 className="titleText text-center text-center font-semibold text-4xl" style={{marginTop: '10%'}}>Silver Line Tours and travels</h1>   
-        <h1 className="titleText text-center text-center font-semibold text-2xl" style={{marginTop: '3%'}}>Connecting people and places</h1>   
-        
+        <h1 className=" text-center font-semibold 
+         text-4xl md:text-4xl lg:text-6xl mt-10 md:mt-20 lg:mt-40">Silver Line Tours and travels</h1>   
+<h1 className="titleText text-center font-semibold text-2xl md:text-3xl lg:text-4xl mt-4 md:mt-8 lg:mt-16">Connecting people and places</h1>
+
         
         </nav>
       </div>
