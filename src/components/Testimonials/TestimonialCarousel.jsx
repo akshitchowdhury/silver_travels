@@ -4,6 +4,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import TestimonialCard from './TestimonialCard';
 import './TestimonialCarousel.css'
+import { easings } from '@react-spring/web';
 const TestimonialCarousel = ({ testimonials }) => {
   const sliderRef = useRef(null);
   const [isSliding, setIsSliding] = useState(false);
@@ -19,14 +20,15 @@ const TestimonialCarousel = ({ testimonials }) => {
   }, [isSliding]);
 
   const settings = {
-    dots: false,
+    
+    dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false, // Disable autoplay as we're handling it manually
+    autoplay: true, // Disable autoplay as we're handling it manually
     autoplaySpeed: 4000,
-    arrows: false,
+    arrows: true,
     beforeChange: (_, next) => {
       setIsSliding(true);
     },
@@ -39,7 +41,7 @@ const TestimonialCarousel = ({ testimonials }) => {
 
     <>
    <div className="carousel-container bg-inherit py-16">
-    <h2 className="text-center text-4xl md:text-5xl mb-8">Testimonials</h2>
+    <h2 className="text-center text-sky-300 text-4xl md:text-5xl mb-8">Testimonials</h2>
     <div className="max-w-4xl mx-auto">
         <div className="carousel">
             <Slider ref={sliderRef} {...settings}>

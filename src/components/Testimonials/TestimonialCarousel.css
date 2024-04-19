@@ -1,4 +1,6 @@
-/* .carousel-container{
+.carousel-container{
     
-    margin-top: 14%;
-} */
+ background-image: url('../../assets/testimonials/testimonyBg2.jpg');
+ background-size: contain;
+ background-attachment: fixed;
+}
