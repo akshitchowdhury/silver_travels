@@ -1,11 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo.png";
-
+import './Nav.css'
 import { Transition } from "@headlessui/react";
-// import DropdownBasicExample from './EventList/DropdownButton';
-
-import "./Nav.css";
 
 export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -32,6 +29,9 @@ export default function Nav() {
             </span>
           </a>
         </Link>
+
+        {/* Conditional rendering based on screen size */}
+        {/* Hamburger Menu Button for small screens */}
         <button
           onClick={toggleMenu}
           type="button"
@@ -57,38 +57,23 @@ export default function Nav() {
             />
           </svg>
         </button>
-        <div
-          className={`w-full md:w-auto md:flex md:flex-row-reverse md:justify-end ${
-            isMenuOpen ? "block" : "hidden"
-          }`}
-          id="navbar-default"
-        >
-        <Transition
-    show={isMenuOpen}
-    enter="transition ease-out duration-200 transform"
-    enterFrom="opacity-0 scale-0"
-    enterTo="opacity-100 scale-100"
-    leave="transition ease-in duration-200 transform"
-    leaveFrom="opacity-100 scale-100"
-    leaveTo="opacity-0 scale-0"
-  >
-          <ul className="font-medium w-full flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-inherit dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-            <li>
-            <Link className="text-zinc-700 md:text-white sm:text-zinc-700 
-            hover:text-sky-400 text-xl 
-            duration-300 ease-in-out"
-            to="/home"
-     >
-  Home
- 
-</Link>
 
+        {/* Navbar Links for large screens */}
+        <div className="hidden md:flex md:flex-row-reverse  md:justify-end" 
+          id="navbar-default"
+          style={{marginLeft: '19rem'}}>
+          <ul className="font-medium flex flex-row justify-end space-x-12">
+            <li>
+              <Link
+                className="text-zinc-700 md:text-white sm:text-zinc-700 hover:text-sky-400 text-xl duration-300 ease-in-out"
+                to="/home"
+              >
+                Home
+              </Link>
             </li>
             <li>
               <Link
-                 className="text-zinc-700 md:text-white sm:text-zinc-700 
-            hover:text-sky-400 text-xl 
-            duration-300 ease-in-out"
+                className="text-zinc-700 md:text-white sm:text-zinc-700 hover:text-sky-400 text-xl duration-300 ease-in-out"
                 to="/about"
               >
                 About
@@ -96,8 +81,7 @@ export default function Nav() {
             </li>
             <li>
               <Link
-                className="text-zinc-700 md:text-white sm:text-zinc-700
-                        hover:text-sky-400 text-xl transition-colors duration-300 ease-in-out"
+                className="text-zinc-700 md:text-white sm:text-zinc-700 hover:text-sky-400 text-xl transition-colors duration-300 ease-in-out"
                 to="/services"
               >
                 Services
@@ -105,25 +89,82 @@ export default function Nav() {
             </li>
             <li>
               <Link
-                className="text-zinc-700 md:text-white sm:text-zinc-700
-                        hover:text-sky-400 text-xl transition-colors duration-300 ease-in-out"
+                className="text-zinc-700 md:text-white sm:text-zinc-700 hover:text-sky-400 text-xl transition-colors duration-300 ease-in-out"
                 to="/gallery"
               >
                 Gallery
               </Link>
             </li>
-            {/* <li><Link className="text-zinc-700" to="/tripmemories">Test</Link>
-                        </li> */}
             <li>
               <Link
-                className="text-zinc-700 md:text-white sm:text-zinc-700
-                        hover:text-sky-400 text-xl transition-colors duration-300 ease-in-out"
+                className="text-zinc-700 md:text-white sm:text-zinc-700 hover:text-sky-400 text-xl transition-colors duration-300 ease-in-out"
                 to="/contact"
               >
                 Contact
               </Link>
             </li>
           </ul>
+        </div>
+
+        {/* Mobile Menu */}
+        <div
+          className={`w-full md:w-auto md:flex md:flex-row-reverse md:justify-end ${
+            isMenuOpen ? "block" : "hidden"
+          }`}
+          id="navbar-default"
+        >
+          {/* Transition applied only when menu is open */}
+          <Transition
+            show={isMenuOpen}
+            enter="transition ease-out duration-200 transform"
+            enterFrom="opacity-0 scale-0"
+            enterTo="opacity-100 scale-100"
+            leave="transition ease-in duration-200 transform"
+            leaveFrom="opacity-100 scale-100"
+            leaveTo="opacity-0 scale-0"
+          >
+            <ul className="font-medium w-full flex flex-col p-6 md:p-0 mt-4 border border-gray-100 rounded-lg bg-sky-200 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-inherit dark:bg-sky-200 md:bg-sky-200 dark:border-gray-700">
+              <li>
+                <Link
+                  className="text-zinc-700 md:text-white sm:text-zinc-700 hover:text-sky-400 text-xl duration-300 ease-in-out"
+                  to="/home"
+                >
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="text-zinc-700 md:text-white sm:text-zinc-700 hover:text-sky-400 text-xl duration-300 ease-in-out"
+                  to="/about"
+                >
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="text-zinc-700 md:text-white sm:text-zinc-700 hover:text-sky-400 text-xl transition-colors duration-300 ease-in-out"
+                  to="/services"
+                >
+                  Services
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="text-zinc-700 md:text-white sm:text-zinc-700 hover:text-sky-400 text-xl transition-colors duration-300 ease-in-out"
+                  to="/gallery"
+                >
+                  Gallery
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="text-zinc-700 md:text-white sm:text-zinc-700 hover:text-sky-400 text-xl transition-colors duration-300 ease-in-out"
+                  to="/contact"
+                >
+                  Contact
+                </Link>
+              </li>
+            </ul>
           </Transition>
         </div>
       </div>
