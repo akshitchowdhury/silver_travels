@@ -11,7 +11,9 @@ const HomeAbout = () => {
   return (
     <div className="home2half">
       <div
-        className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-start"
+        className="flex flex-col
+        
+         md:flex-row items-center md:items-start justify-center md:justify-start"
         style={{ padding: "4%" }}
       >
         <div

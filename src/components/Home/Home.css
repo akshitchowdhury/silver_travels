@@ -4,6 +4,8 @@
     background-image: url('../../assets/homeBg.jpg');
     background-size: cover;
     background-attachment: fixed;
+    /* background-color: rgba(238, 108, 8, 0.5);
+    background-blend-mode: multiply; */
     width: 100%;
     height: auto;
     padding: 23px 0;

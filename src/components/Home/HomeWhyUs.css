@@ -3,6 +3,8 @@
     background-image: url("../../assets/home1.jpg");
 
     background-size: cover;
-
+    background-color: rgba(234, 238, 8, 0.5);
+    background-blend-mode: multiply;
     background-attachment: fixed;
+     /* Adjust the blur level as needed */
 }

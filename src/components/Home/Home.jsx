@@ -89,11 +89,11 @@ const testimonials = [
 const Home = () => {
   return (
     <>
-      <div className="navBlock w-full">
-  <nav className="bg-cover">
+      <div className="navBlock w-full ">
+  <nav className="bg-cover  bg-opacity-50">
     <Nav />
     <SocialIcons />
-    <div className="px-10 -my-12 md:-my-24 sm:-my-12">
+    <div className=" px-10 -my-12 md:-my-24 sm:-my-12">
       <h1 className="text-start font-bold text-white text-4xl md:text-4xl lg:text-6xl mt-10 md:mt-20 lg:mt-40">
         Silver Line Tours and Travels
       </h1> 

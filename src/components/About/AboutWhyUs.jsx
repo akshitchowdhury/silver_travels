@@ -1,7 +1,7 @@
 import React from "react";
 import Accordion from "./Accordion";
 
-import attractionBg from "../../assets/g19.jpg";
+import attractionBg from "../../assets/doodle.jpg";
 import i1 from "../../assets/g2.jpg";
 import i2 from "../../assets/g3.jpg";
 import i3 from "../../assets/g4.webp";

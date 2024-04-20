@@ -5,7 +5,7 @@ import "./HomeWhyUs.css";
 
 const HomeWhyUs = () => {
   return (
-    <div className="WhyUs">
+    <div className="WhyUs ">
       <div
         className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-start"
         style={{ padding: "4%" }}
