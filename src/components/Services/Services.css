@@ -21,7 +21,11 @@
 /* For tablets (landscape and portrait) */
 @media only screen and (max-width: 1024px) {
     .services {
+
         background-attachment: scroll;
+        height: auto;
+    width: 100vw;
+    background-repeat: repeat-y;
     }
 }
 
@@ -29,5 +33,8 @@
 @media only screen and (max-width: 768px) {
     .services {
         background-attachment: scroll;
+        height: auto;
+    width: 100vw;
+    background-repeat: repeat-y;
     }
 }
