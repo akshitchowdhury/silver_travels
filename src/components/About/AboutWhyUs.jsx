@@ -40,7 +40,7 @@ const items = [
 const AboutWhyUs = () => {
   return (
     <div
-      className="bg-pink-300 min-h-screen flex flex-col md:flex-row items-center justify-center"
+      className="abtWhyUs bg-pink-300 min-h-screen flex flex-col md:flex-row items-center justify-center"
       style={{
         padding: "5%",
         backgroundImage: `url(${attractionBg})`,

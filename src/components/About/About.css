@@ -7,6 +7,25 @@
     padding: 33px 0;
 }
 
+@media only screen and (max-width: 1024px) {
+    .about {
+
+        background-attachment: scroll;
+        height: auto;
+    width: 100vw;
+    background-repeat: repeat-y;
+    }
+}
+
+/* For mobile devices (landscape and portrait) */
+@media only screen and (max-width: 768px) {
+    .about {
+        background-attachment: scroll;
+        height: auto;
+    width: 100vw;
+    background-repeat: repeat-y;
+    }
+}
 
 .eventImg{
 

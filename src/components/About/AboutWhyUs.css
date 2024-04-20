@@ -1,17 +1,6 @@
-.gallery{
-    background-image: url('../../assets/galleryBg2.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    width: 100%;
-    height: 80vh;
-    padding: 33px 0;
-
-}
-
 
 @media only screen and (max-width: 1024px) {
-    .gallery {
+    .abtWhyUs {
 
         background-attachment: scroll;
         height: auto;
@@ -22,7 +11,7 @@
 
 /* For mobile devices (landscape and portrait) */
 @media only screen and (max-width: 768px) {
-    .gallery {
+    .abtWhyUs {
         background-attachment: scroll;
         height: auto;
     width: 100vw;
