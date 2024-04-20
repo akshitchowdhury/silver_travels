@@ -22,9 +22,9 @@ const BookNow = () => {
             At Silver Line Tours and Travel, we understand that every traveler
             is unique, and that's why we go above and beyond to tailor our
             services to your specific preferences and needs. Whether you're
-            seeking a solo adventure, a romantic getaway, or a group
-            expedition, our dedicated team is here to turn your travel
-            aspirations into reality.
+            seeking a solo adventure, a romantic getaway, or a group expedition,
+            our dedicated team is here to turn your travel aspirations into
+            reality.
             <br />
             <br />
             Ready to embark on your next unforgettable journey? Contact Silver
@@ -35,12 +35,18 @@ const BookNow = () => {
             the excitement begin!
           </p>
           <Link to="/contact">
-          <button
-            type="button"
-            className="contactButton text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800"
-          >
-            Contact Us
-          </button>
+            <button
+              type="button"
+              className="contactButton text-gray-900 hover:text-white 
+            border border-amber-300 hover:bg-gray-900 focus:ring-4 
+            focus:outline-none
+             focus:ring-gray-300 font-medium 
+             rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2
+              dark:border-gray-600 dark:text-gray-400 dark:hover:text-white
+               dark:hover:bg-gray-600 duration-500 ease-in-out dark:focus:ring-gray-800"
+            >
+              Contact Us
+            </button>
           </Link>
         </div>
       </div>
