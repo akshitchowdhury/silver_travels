@@ -1,4 +1,4 @@
-.services{
+/* .services{
     
     background-image: url('../../assets/serviceBg1.jpeg');
     height: 100vh;
@@ -7,4 +7,27 @@
     background-size: cover;
     background-position: center;
     padding: 33px 0;
+} */
+.services {
+    background-image: url('../../assets/serviceBg1.jpeg');
+    height: auto;
+    width: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding: 33px 0;
+}
+
+/* For tablets (landscape and portrait) */
+@media only screen and (max-width: 1024px) {
+    .services {
+        background-attachment: scroll;
+    }
+}
+
+/* For mobile devices (landscape and portrait) */
+@media only screen and (max-width: 768px) {
+    .services {
+        background-attachment: scroll;
+    }
 }
