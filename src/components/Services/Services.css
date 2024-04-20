@@ -1,8 +1,10 @@
 .services{
-
+    z-index: -1;
     background-image: url('../../assets/serviceBg1.jpeg');
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
     background-size: cover;
-    background-attachment: fixed;
-    
+    background-position: center;
     padding: 33px 0;
 }
