@@ -96,7 +96,7 @@ const Home = () => {
     <div className="px-10 -my-12 md:-my-24 sm:-my-12">
       <h1 className="text-start font-bold text-white text-4xl md:text-4xl lg:text-6xl mt-10 md:mt-20 lg:mt-40">
         Silver Line Tours and Travels
-      </h1>
+      </h1> 
       <h1 className="titleText text-sky-300 text-start font-semibold text-2xl md:text-3xl lg:text-4xl mt-4 md:mt-8 lg:mt-16">
         Connecting people and places
       </h1>
