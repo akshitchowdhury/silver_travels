@@ -2,14 +2,34 @@
 .bg-cover{
 
     background-image: url('../../assets/homeBg.jpg');
-    background-size: contain;
+    height: auto;
+    width: auto;
     background-attachment: fixed;
-    /* background-color: rgba(238, 108, 8, 0.5);
-    background-blend-mode: multiply; */
-    width: 100%;
-    height: 100vh;
-    padding: 23px 0;
+    background-size: cover;
+    background-position: center;
+    padding: 33px 0;
 }
+
+@media only screen and (max-width: 1024px) {
+    .bg-cover {
+
+        background-attachment: scroll;
+        height: auto;
+    width: 100vw;
+    background-repeat: repeat-y;
+    }
+}
+
+/* For mobile devices (landscape and portrait) */
+@media only screen and (max-width: 768px) {
+    .bg-cover {
+        background-attachment: scroll;
+        height: auto;
+    width: 100vw;
+    background-repeat: repeat-y;
+    }
+}
+
 
 
 .navbar-container {

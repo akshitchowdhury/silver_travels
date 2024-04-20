@@ -6,5 +6,30 @@
     background-color: rgba(234, 238, 8, 0.5);
     background-blend-mode: multiply;
     background-attachment: fixed;
+    height: auto;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    padding: 33px 0;
      /* Adjust the blur level as needed */
+}
+
+@media only screen and (max-width: 1024px) {
+    .WhyUs {
+
+        background-attachment: scroll;
+        height: auto;
+    width: 100vw;
+    background-repeat: repeat-y;
+    }
+}
+
+/* For mobile devices (landscape and portrait) */
+@media only screen and (max-width: 768px) {
+    .WhyUs {
+        background-attachment: scroll;
+        height: auto;
+    width: 100vw;
+    background-repeat: repeat-y;
+    }
 }
