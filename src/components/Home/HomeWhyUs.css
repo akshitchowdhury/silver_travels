@@ -27,7 +27,8 @@
 /* For mobile devices (landscape and portrait) */
 @media only screen and (max-width: 768px) {
     .WhyUs {
-        background-attachment: scroll;
+        background-attachment: fixed;
+        background-size: cover;
         height: auto;
     width: 100vw;
     background-repeat: repeat-y;

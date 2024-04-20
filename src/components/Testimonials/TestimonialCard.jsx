@@ -8,7 +8,7 @@ const TestimonialCard = ({ text, author,  Place, image }) => {
       
        rounded-lg shadow-lg overflow-hidden">
          {/* Reduced the margin */}
-            <img className="h-24 w-24  rounded-full object-cover border-4 border-rose-400 mx-40" 
+            <img className="h-24 w-24  rounded-full object-cover border-4 border-rose-400 mx-32 md:mx-40 " 
             src={image} alt="Profile Image" />
           
           
