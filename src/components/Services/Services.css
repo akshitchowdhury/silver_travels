@@ -3,7 +3,7 @@
     background-image: url('../../assets/serviceBg1.jpeg');
     background-size: cover;
     background-attachment: fixed;
-    width: 100%;
+    width: auto;
     height: auto;
     padding: 33px 0;
 }
