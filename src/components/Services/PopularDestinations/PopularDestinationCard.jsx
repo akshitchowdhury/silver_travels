@@ -5,7 +5,7 @@ const PopularDestinationCard = ({ text, author, Place, image }) => {
     <div className="max-w-sm w-6/7   rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-2 relative">
   <a href="#" className="block relative">
     <img className="rounded-t-lg opacity-75" src={image} alt="" />
-    {/* <h5 className="absolute bottom-0 left-0 mb-2 ml-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{author}</h5> */}
+    <h5 className="absolute -bottom-6 left-24 mb-2 ml-2 text-md font-bold tracking-tight text-center text-white dark:text-white">{author}</h5>
   </a>
 
 

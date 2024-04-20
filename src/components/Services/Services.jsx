@@ -21,21 +21,21 @@ const testimonials = [
   {
     text: `"Silverline Tours & Travels organised our trip to the North East (Guwahati, Shillong, Cherrapunji & Kaziranga ) in Feb'2022. Planning and arrangements of hotels and car were very good. We enjoyed the trip thoroughly.
     "`,
-    author: "Siba Maitra",
+    author: "Andaman and Nicobar",
     Place: "Mumbai",
     image: i1,
   },
   {
     text: `"My wife and I took a trip to Andaman with Silverline Tours & Travels in October 2019. Every moment was fascinating. The arrangements, the hotels & hospitality was exclusively customized.
     Even the evenings were made entertaining with in house fun and games. Still cherish the experience."`,
-    author: "Pratik Chowdhury",
+    author: "Kerela",
     Place: "Dibrugarh, Assam",
     image: i2,
   },
 
   {
     text: `"I have been on group trips with Silverline Tours & Travels since 2016 to places like Kerala, Rajasthan, Northeast. Always well planned and well organised, they pay special attention to senior citizens. Highly recommended."`,
-    author: "Kiran Prakash",
+    author: "Bhutan",
     Place: "Mumbai",
     image: i3,
   },
@@ -43,7 +43,7 @@ const testimonials = [
   {
     text: `"Silverline Tours & Travels has been our trusted choice since 2018, guiding us through unforgettable journeys. From Kaziranga to Shillong, Kasauli to Chail, and the scenic beauty of Kashmir, each trip was meticulously tailored to our preferences. With well-maintained cabs, accommodating drivers, and picturesque accommodations, every aspect exceeded our expectations. Mrs. Bose and her team ensured seamless communication and assistance, making every holiday a cherished memory. Highly recommended for unparalleled travel experiences..
     ."`,
-    author: "Rohee Qureshi",
+    author: "Golden Triangle",
     Place: "Mumbai",
     image: i4,
   },
@@ -51,49 +51,49 @@ const testimonials = [
     text: `"My wife and I along with 2 of our friends visited Kerala in Feb' 2024. Silverline Tours & Travels organised our trip. Everything was good. Nice rooms, excellent food, interesting visits. The Innova crysta car was comfortable and equipped with hand sanitizers, tissues and mineral water. Driver was excellent. Houseboat stay was relaxing with good food although the boat was surprisingly old and basic. Overall a good experience though there's scope for further improvements.
     Cheers!
     ."`,
-    author: "Arno Bingemann",
+    author: "Karnataka",
     Place: "Germany",
     image: i5,
   },
   {
     text: `"Thanks to Silverline Tours & Travels, me and my friends could go on a Ladies Only trip to the North East. It was the most enjoyable trip we all ever had.
     ."`,
-    author: "Shanta Debbarma",
+    author: "Kashmir",
     Place: "Agartala, Tripura",
     image: i6,
   },
   {
     text: `"I have gone on group tours with Silverline Tours & Travels to both domestic and international destinations like Bangkok, Pattaya, Kuala Lumpur and Singapore. I have enjoyed on all the trips. After the days sightseeing, there's the evening get-togethers which is a lot of fun.
     "`,
-    author: "Krishna Dutta.",
+    author: "North East India",
     Place: "Chandannagar, West Bengal",
     image: i7,
   },
   {
     text: `"Silverline Tours and travels  made my North Bengal trip a breeze! From start to finish, everything was well-organized and stress-free. The entire itinerary was packed with amazing experiences, and I couldn't have asked for a better time. Attention to details was great for all the experiences we had especially the tea ceremony which we experienced at the plantation. Definitely will be booking my future trip from Silverline Tours and Travels !!
     "`,
-    author: "Suchi Chakravarty.",
+    author: "Rajasthan",
     Place: "Delhi",
     image: i8,
   },
   {
     text: `"Silverline Tours and travels  made my North Bengal trip a breeze! From start to finish, everything was well-organized and stress-free. The entire itinerary was packed with amazing experiences, and I couldn't have asked for a better time. Attention to details was great for all the experiences we had especially the tea ceremony which we experienced at the plantation. Definitely will be booking my future trip from Silverline Tours and Travels !!
     "`,
-    author: "Suchi Chakravarty.",
+    author: "Sikkim",
     Place: "Delhi",
     image: i9,
   },
   {
     text: `"Silverline Tours and travels  made my North Bengal trip a breeze! From start to finish, everything was well-organized and stress-free. The entire itinerary was packed with amazing experiences, and I couldn't have asked for a better time. Attention to details was great for all the experiences we had especially the tea ceremony which we experienced at the plantation. Definitely will be booking my future trip from Silverline Tours and Travels !!
     "`,
-    author: "Suchi Chakravarty.",
+    author: "Singapore",
     Place: "Delhi",
     image: i10,
   },
   {
     text: `"Silverline Tours and travels  made my North Bengal trip a breeze! From start to finish, everything was well-organized and stress-free. The entire itinerary was packed with amazing experiences, and I couldn't have asked for a better time. Attention to details was great for all the experiences we had especially the tea ceremony which we experienced at the plantation. Definitely will be booking my future trip from Silverline Tours and Travels !!
     "`,
-    author: "Suchi Chakravarty.",
+    author: "Thailand",
     Place: "Delhi",
     image: i11,
   },
@@ -108,12 +108,23 @@ const Services = () => {
       <Nav/>
       <SocialIcons/>
 
+    
+      <PopularDetinationCarousel testimonials={testimonials}/>
+      <div class="self-center  text-5xl md:text-3xl  font-bold 
+      tracking-wider text-center text-white max-w-[90%] mx-auto" style={{
+        
+      }}>
+   View our Services we cater for our dear customers
+</div>
 
-        <div className="serviceCards">
+        <div className="serviceCards my-32">
           <ServiceCard/>
         </div>
 
-        <PopularDetinationCarousel testimonials={testimonials}/>
+      <div>
+
+      </div>
+
 
 
           </div>
