@@ -3,10 +3,10 @@ import Nav from "../../../Navbar/Nav";
 
 import kashmir from "../../../../assets/galleryMemories/kl1.jpg";
 
-import a1 from "../../../../assets/galleryMemories/kl1.jpg";
-import a2 from "../../../../assets/galleryMemories/kl4.jpg";
-import a3 from "../../../../assets/galleryMemories/kl2.jpg";
-import a4 from "../../../../assets/galleryMemories/kl3.jpg";
+import a4 from "../../../../assets/galleryMemories/kl1.jpg";
+import a3 from "../../../../assets/galleryMemories/kl4.jpg";
+import a2 from "../../../../assets/galleryMemories/kl2.jpg";
+import a1 from "../../../../assets/galleryMemories/kl3.jpg";
 import kerelaBg from "../../../../assets/galleryMemories/galleryKerela.jpg";
 import ImageGrid from "./ImageGrid";
 import Footer from "../../../Footer/Footer";
