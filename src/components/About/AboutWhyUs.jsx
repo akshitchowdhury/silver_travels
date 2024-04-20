@@ -8,7 +8,7 @@ import i3 from "../../assets/g4.webp";
 import i4 from "../../assets/g6.jpg";
 import i5 from "../../assets/g5.jpg";
 import PicFlow from "../Gallery/PicFlow/PicFlow";
-
+import './AboutWhyUs.css'
 const items = [
   {
     title: "Exceptional Customer Service",
@@ -40,20 +40,16 @@ const items = [
 const AboutWhyUs = () => {
   return (
     <div
-      className="abtWhyUs bg-pink-300 min-h-screen flex flex-col md:flex-row items-center justify-center"
+      className="abtWhyUs  min-h-screen flex flex-col md:flex-row items-center justify-center"
       style={{
-        padding: "5%",
-        backgroundImage: `url(${attractionBg})`,
-        backgroundSize: "cover",
-        backgroundAttachment: "fixed",
-        backgroundPosition: "bottom",
+        padding: "5%"
       }}
     >
       <div className="flex flex-col items-center justify-center md:items-start md:justify-start md:w-1/2 md:p-8">
         
         <p
-          className="paraText text-white text-lg mb-4"
-          style={{ color: "white" }}
+          className="paraText text-zinc-800 text-lg mb-4"
+
         >
           So, why SILVERLINE TOURS & TRAVELS? Ours is a small, low-cost
           enterprise committed to providing value-for-money without compromising

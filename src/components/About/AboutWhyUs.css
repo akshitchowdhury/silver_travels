@@ -1,4 +1,10 @@
 
+.abtWhyUs {
+background-image: url("../../assets/doodle.jpg");
+background-attachment: fixed;
+background-position: center;
+    
+}
 @media only screen and (max-width: 1024px) {
     .abtWhyUs {
 
@@ -15,6 +21,5 @@
         background-attachment: scroll;
         height: auto;
     width: 100vw;
-    background-repeat: repeat-y;
     }
 }
