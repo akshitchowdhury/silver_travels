@@ -30,7 +30,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className='overflow-x-hidden'>
 
         <Router className="landing">
           <Routes>
