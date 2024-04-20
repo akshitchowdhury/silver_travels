@@ -104,7 +104,7 @@ const testimonials = [
 const Services = () => {
   return (
     <>
-    <div className='services'>
+    <div className='services w-1/2 md:w-full'>
       <Nav/>
       <SocialIcons/>
 
