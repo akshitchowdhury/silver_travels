@@ -12,10 +12,14 @@ const Gallery = () => {
     <>
     <div className='gallery'>
       <Nav/>
-
+      <SocialIcons/>
     </div>  
     {/* <ImageCards/>
      */}
+     
+     <h1 className=" py-4 my-7 tracking-widest border-fuchsia-900 text-fuchsia-900 text-center">
+              Take a look at some of the best memories created amongst our most sought out destinations!
+            </h1>
      <TripMemories/>
      <div className="transition" style={{padding: '5%'}}>
      <h1 className=" tracking-widest border-fuchsia-900 text-fuchsia-900 text-center">
@@ -31,7 +35,6 @@ const Gallery = () => {
 
      
      </div>
-      <SocialIcons/>
       
       
       

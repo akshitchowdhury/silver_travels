@@ -41,7 +41,11 @@ const TestimonialCarousel = ({ testimonials }) => {
 
     <>
    <div className="carousel-container bg-inherit py-16">
-    <h2 className="text-center text-sky-300 text-4xl md:text-5xl mb-8">Testimonials</h2>
+    <h2 className="text-center text-sky-300 text-4xl md:text-2xl mb-8">What our fellow Travellers have to say 
+    </h2>
+{/*     
+    <span className='text-white text-4xl md:text-xl mx-2'>Listen to what our dear travel enthusiasts would have to share</span> */}
+    {/* <h2 className="text-center text-sky-300 text-4xl md:text-4xl mb-8">Testimonials</h2> */}
     <div className="max-w-6xl mx-auto">
         <div className="carousel">
             <Slider ref={sliderRef} {...settings}>

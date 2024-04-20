@@ -80,6 +80,8 @@ export default function TripMemories() {
                     fontSize: 20,
                     borderRadius: 8,
                     backdropFilter: 'blur(10px)',
+                    transition: 'backdropFilter 500s ease-in-out',
+
                   }}
                 >
                   {item.title}

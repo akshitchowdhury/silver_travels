@@ -1,66 +1,64 @@
-import React from 'react'
-import Nav from '../../../Navbar/Nav'
+import React from "react";
+import Nav from "../../../Navbar/Nav";
 
-import kashmir from '../../../../assets/galleryMemories/gtBg2.jpg'
+import kashmir from "../../../../assets/galleryMemories/gtBg2.jpg";
 
-import a4 from '../../../../assets/galleryMemories/gt6.jpg'
-import a2 from '../../../../assets/galleryMemories/gt3.jpg'
-import a3 from '../../../../assets/galleryMemories/gt2.jpg'
-import a1 from '../../../../assets/galleryMemories/gt4.jpg'
-import ImageGrid from './ImageGrid'
-import Footer from '../../../Footer/Footer'
+import a4 from "../../../../assets/galleryMemories/gt6.jpg";
+import a2 from "../../../../assets/galleryMemories/gt3.jpg";
+import a3 from "../../../../assets/galleryMemories/gt2.jpg";
+import a1 from "../../../../assets/galleryMemories/gt4.jpg";
+import ImageGrid from "./ImageGrid";
+import Footer from "../../../Footer/Footer";
+import SocialIcons from "../../../Social Icons/SocialIcons";
 
-
-const images = [
-    {image: a1},
-    {image: a2},
-    {image: a3},
-    {image: a4}
-]
+const images = [{ image: a1 }, { image: a2 }, { image: a3 }, { image: a4 }];
 const GoldenTriangle = () => {
   return (
     <>
-    <div className='kashmir' style={{ height: 'auto', padding: '2%', }}>
-      <Nav/>
       <div
-        className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-start"
-        style={{  padding: "6%", marginTop: '2%',borderRadius: '2%', backgroundImage: 'linear-gradient(to bottom right, #C2BFB5, #BF10D6)'}}
+        className="kashmir
+        h-auto md:h-full sm:h-auto"
+        style={{
+          height: "600px",
+          padding: "2%",
+          backgroundImage: `url(${kashmir})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundAttachment: "fixed",
+        }}
       >
-        <p
-          className="paraText text-white text-lg mb-2 md:mb-4"
-          style={{ width: "auto", color: "black" }}
-        >
-          So, why SILVERLINE TOURS & TRAVELS? Ours is a small, low-cost
-          enterprise committed to providing value-for-money without compromising
-          on comfort. As ardent travelers ourselves, we believe in not only
-          sharing the joys of exploring new places and cultures but also pass on
-          the benefits of group discounts, concessions, incentives, etc. to our
-          customers so that the tour does not burn a hole in your pocket. There
-          is a reason behind this. 
-          <br />
-          
-        </p>
-        <img
-          src={kashmir}
-          alt="placeholder"
-          className="eventImg md:w-full"
-          style={{
-            height: "400px",
-            borderRadius: "5%",
-            marginLeft: "4%",
-            width: "auto",
-            maxWidth: 'auto'
-          }}
-        />
-      </div>
-      <div style={{   marginTop: '2%', padding: '6%'}}>
-      <ImageGrid source={images}/>
-      </div>
-    </div>
-    <Footer/>
-    </>
-  )
-}
 
-export default GoldenTriangle
- 
+        <Nav />
+        <SocialIcons/>  
+        <div
+          className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-start"
+          style={{ padding: "4%", marginTop: "2%", borderRadius: "2%" }}
+        >
+          <p
+            className="paraText text-white my-56 tex-sm md:text-xl sm:text-sm mb-2 md:mb-4 "
+            style={{ color: "white" }}
+          >
+            Embark on a captivating journey through India's Golden Triangle with
+            Silverline Tours & Travels. Our recent expedition was a kaleidoscope
+            of history, culture, and architectural marvels, showcasing the
+            essence of Delhi, Agra, and Jaipur. Join us for an unforgettable
+            journey through the Golden Triangle, where every moment is a
+            treasure waiting to be discovered. Below, we share glimpses of our
+            mesmerizing trip, a testament to the beauty and heritage of India's
+            iconic destinations.
+            <br />
+          </p>
+        </div>
+      </div>
+      <h1 className=" py-4 my-7 tracking-widest border-fuchsia-900 text-slate-800 text-center">
+        Below, we share glimpses of our unforgettable journey.
+      </h1>
+      <div style={{ marginTop: "2%", padding: "6%" }}>
+        <ImageGrid source={images} />
+      </div>
+      <Footer />
+    </>
+  );
+};
+
+export default GoldenTriangle;
