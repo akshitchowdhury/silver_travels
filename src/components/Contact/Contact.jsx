@@ -53,10 +53,10 @@ const ContactComponent = forwardRef((props,ref) => {
 
     <div className="contactContent flex flex-col lg:flex-row sm:flex-col gap-6" >
 
-    <MapLeaflet className="map-box "/>
+    {/* <MapLeaflet className="map-box "/> */}
 
 
-    <div className="form w-full md:w-1/2 lg:w-1/2 px-4 lg:p-4 lg:h-full rounded-lg shadow-2xl">
+    <div className="form w-full md:w-1/2 lg:w-1/2 p-4 lg:p-4 lg:h-full rounded-lg shadow-2xl">
   <h2 className="contactUs text-2xl font-bold mb-4">Contact Us</h2>
   <form className="space-y-4" onSubmit={handleSubmit}>
     <div>

@@ -3,7 +3,7 @@
 
     background-image: url('../../assets/homeBg.jpg');
     height: auto;
-    width: auto;
+    width: 100%;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -15,7 +15,7 @@
 
         background-attachment: scroll;
         height: auto;
-    width: 100vw;
+    width: auto;
     background-repeat: repeat-y;
     }
 }
