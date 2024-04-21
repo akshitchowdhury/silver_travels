@@ -13,6 +13,7 @@ import Footer from "../../../Footer/Footer";
 
 import SocialIcons from "../../../Social Icons/SocialIcons";
 
+import './memoryStyles.css'
 
 const images = [{ image: a1 }, { image: a2 }, { image: a3 }, { image: a4 }];
 const Northeast = () => {
@@ -22,12 +23,7 @@ const Northeast = () => {
         className="kashmir
         h-auto md:h-full sm:h-auto" 
         style={{
-          height: '600px',
-          padding: "2%",
-          backgroundImage: `url(${neBg})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundAttachment: "fixed",
+          backgroundImage: `url(${neBg})`
         }}
       >
         <Nav />

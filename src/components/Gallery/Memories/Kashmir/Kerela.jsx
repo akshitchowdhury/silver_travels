@@ -10,6 +10,7 @@ import a1 from "../../../../assets/galleryMemories/kl3.jpg";
 import kerelaBg from "../../../../assets/galleryMemories/galleryKerela.jpg";
 import ImageGrid from "./ImageGrid";
 import Footer from "../../../Footer/Footer";
+import './memoryStyles.css'
 
 import SocialIcons from "../../../Social Icons/SocialIcons";
 
@@ -21,12 +22,7 @@ const Kerela = () => {
       <div
         className="kashmir"
         style={{
-          height: '600px',
-          padding: "2%",
           backgroundImage: `url(${kerelaBg})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundAttachment: "fixed",
         }}
       >
         {/* Content goes here */}

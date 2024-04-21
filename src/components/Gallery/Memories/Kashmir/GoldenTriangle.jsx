@@ -10,6 +10,8 @@ import a1 from "../../../../assets/galleryMemories/gt4.jpg";
 import ImageGrid from "./ImageGrid";
 import Footer from "../../../Footer/Footer";
 import SocialIcons from "../../../Social Icons/SocialIcons";
+import './memoryStyles.css'
+
 
 const images = [{ image: a1 }, { image: a2 }, { image: a3 }, { image: a4 }];
 const GoldenTriangle = () => {
@@ -19,12 +21,8 @@ const GoldenTriangle = () => {
         className="kashmir
         h-auto md:h-full sm:h-auto"
         style={{
-          height: "600px",
-          padding: "2%",
           backgroundImage: `url(${kashmir})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundAttachment: "fixed",
+
         }}
       >
 

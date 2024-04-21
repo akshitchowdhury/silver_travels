@@ -10,6 +10,7 @@ import a3 from "../../../../assets/galleryMemories/ml3.jpg";
 import a1 from "../../../../assets/galleryMemories/ml4.jpg";
 import ImageGrid from "./ImageGrid";
 import Footer from "../../../Footer/Footer";
+import './memoryStyles.css'
 
 import SocialIcons from "../../../Social Icons/SocialIcons";
 
@@ -22,13 +23,8 @@ const Singapore = () => {
         className="kashmir
         h-auto md:h-full sm:h-auto" 
         style={{
-          height: '600px',
-          padding: "2%",
           backgroundImage: `url(${malayBg})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundAttachment: "fixed",
-        }}
+            }}
       >
         <Nav />
         <SocialIcons/>

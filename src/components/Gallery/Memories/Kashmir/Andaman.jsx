@@ -10,6 +10,7 @@ import a2 from "../../../../assets/galleryMemories/ad4.jpg";
 import andamanBg from "../../../../assets/galleryMemories/andamanBg.webp";
 import ImageGrid from "./ImageGrid";
 import SocialIcons from "../../../Social Icons/SocialIcons";
+import './memoryStyles.css'
 
 import Footer from "../../../Footer/Footer";
 
@@ -21,12 +22,7 @@ const Andaman = () => {
         className="kashmir
         h-auto md:h-full sm:h-auto"
         style={{
-          height: "600px",
-          padding: "2%",
-          backgroundImage: `url(${andamanBg})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundAttachment: "fixed",
+          backgroundImage: `url(${andamanBg})`
         }}
       >
         <Nav />

@@ -9,6 +9,7 @@ import a2 from "../../../../assets/galleryMemories/rj1.jpg";
 import rajasthanBg from "../../../../assets/galleryMemories/rajsthanBg.jpg";
 import ImageGrid from "./ImageGrid";
 import Footer from "../../../Footer/Footer";
+import './memoryStyles.css'
 
 import SocialIcons from "../../../Social Icons/SocialIcons";
 
@@ -21,12 +22,8 @@ const Rajasthan = () => {
         className="kashmir
         h-auto md:h-full sm:h-auto"
         style={{
-          height: "600px",
-          padding: "2%",
           backgroundImage: `url(${rajasthanBg})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundAttachment: "fixed",
+          
         }}
       >
         <Nav />
