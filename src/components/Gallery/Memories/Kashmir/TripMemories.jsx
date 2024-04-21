@@ -38,14 +38,15 @@ export default function TripMemories() {
   });
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4 justify-center">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-4 justify-center justify-self-center ">
       {/* Image cards */}
       {[
         { image: i1, title: 'Kerela', link: '/kerela', isHovered: isHovered1, setIsHovered: setIsHovered1 },
         { image: i2, title: 'Golden Triangle', link: '/goldentriangle', isHovered: isHovered2, setIsHovered: setIsHovered2 },
         { image: i3, title: 'Andaman Nicobar islands', link: '/andaman', isHovered: isHovered3, setIsHovered: setIsHovered3 },
         ].map((item, index) => (
-        <div key={index} className="relative" style={{padding: '5%'}}>
+        <div key={index} className="relative justify-center justify-self-center
+        " style={{padding: '5%'}}>
           <Link to={item.link}>
             <animated.div
               onMouseEnter={() => item.setIsHovered(true)}

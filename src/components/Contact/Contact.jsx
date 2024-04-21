@@ -51,17 +51,36 @@ const ContactComponent = forwardRef((props,ref) => {
   <SocialIcons/>
   <h2 className="connect w-full lg:w-3/4 px-4 lg:p-4 lg:h-full rounded-lg  text-3xl md:text-4xl font-bold mb-4 text-center md:text-left mx-auto">Reach out to us</h2>
 
-    <div className="contactContent flex flex-col lg:flex-row sm:flex-col gap-6" >
+  <div className="contactContent flex flex-col lg:flex-row sm:flex-col gap-6">
 
-    {/* <MapLeaflet className="map-box "/> */}
+{/* Contact Card */}
+<div className="contactCard w-auto md:w-1/2 lg:w-1/2 p-4 lg:p-4 lg:h-full lg:mt-28 mx-8 rounded-lg shadow-2xl bg-gray-100">
+  <h2 className="contactInfo text-xl font-semibold mb-4">Contact Information</h2>
+  <div className="flex flex-col space-y-2">
+    <div>
+      <h3 className="text-lg font-semibold">Address:</h3>
+      <p>Silverline Tours & Travels</p>
+      <p>Lokhandwala, Andheri West</p>
+      <p>Mumbai 400053</p>
+    </div>
+    <div>
+      <h3 className="text-lg font-semibold">Phone:</h3>
+      <p>+91 - 7506526928</p>
+    </div>
+    <div>
+      <h3 className="text-lg font-semibold">Email:</h3>
+      <p>bhaswatibom@gmail.com</p>
+    </div>
+  </div>
+</div>
 
-
-    <div className="form w-full md:w-1/2 lg:w-1/2 p-4 lg:p-4 lg:h-full rounded-lg shadow-2xl">
+{/* Contact Form */}
+<div className="form w-1/12 md:w-auto lg:w-1/2 sm:w-1/2 p-4 lg:p-4 lg:h-full rounded-lg shadow-2xl bg-white">
   <h2 className="contactUs text-2xl font-bold mb-4">Contact Us</h2>
   <form className="space-y-4" onSubmit={handleSubmit}>
     <div>
       <label htmlFor="name" className="block font-semibold mb-1">Name</label>
-      <input type="text" ref={nameRef} id="name" name="name" className="enter-name w-full px-4 py-2 border rounded-md" placeholder="Enter your name" />
+      <input type="text" ref={nameRef} id="name" name="name" className="enter-name w-auto md:w-full  px-4 py-2 border rounded-md" placeholder="Enter your name" />
     </div>
     <div>
       <label htmlFor="email" className="block font-semibold mb-1">Email</label>
@@ -73,18 +92,15 @@ const ContactComponent = forwardRef((props,ref) => {
     </div>
     <div>
       <label htmlFor="message" className="block font-semibold mb-1">Message</label>
-      <input type="text" ref={messageRef} id="name" name="name" className="enter-message w-full px-4 py-2 border rounded-md" placeholder="Type your message" />
+      <input type="text" ref={messageRef} id="message" name="message" className="enter-message w-full px-4 py-2 border rounded-md" placeholder="Type your message" />
     </div>
-    <button type="submit" className="formButton text-white px-6 py-2 rounded-md ">Submit</button>
+    <button type="submit" className="formButton text-white px-6 py-2 rounded-md">Submit</button>
   </form>
 </div>
 
-      
+</div>
 
-     
-    
 
-    </div>
 </div> 
 <Footer/>
 </>
