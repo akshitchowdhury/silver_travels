@@ -23,6 +23,7 @@ import i5 from "../../assets/testimonials/5 (2).jpg";
 import i6 from "../../assets/testimonials/6.jpg";
 import i7 from "../../assets/testimonials/7.jpg";
 import i8 from "../../assets/testimonials/8.jpg";
+import i9 from "../../assets/testimonials/9.jpg";
 
 const testimonials = [
   {
@@ -83,6 +84,13 @@ const testimonials = [
     Place: "Delhi",
     image: i8,
   },
+  {
+    text: `"We, Mrs. and Mr. Milwani had travelled to Bangkok and Pataya with the group led by Mrs Bose of Silverline Tours & Travels. It was really a wonderful and enjoyable experience.Silverline Tours and travels  made my North Bengal trip a breeze! From start to finish, everything was well-organized and stress-free. The entire itinerary was packed with amazing experiences, and I couldn't have asked for a better time. Attention to details was great for all the experiences we had especially the tea ceremony which we experienced at the plantation. Definitely will be booking my future trip from Silverline Tours and Travels !!
+    "`,
+    author: "Bihari Milwani.",
+    Place: "Mumbai",
+    image: i9,
+  },
   // Add more testimonials as needed
 ];
 
@@ -90,32 +98,32 @@ const Home = () => {
   return (
     <>
       <div className="navBlock w-full ">
-  <nav className="bg-cover  bg-opacity-50">
-    <Nav />
-    <SocialIcons />
-    <div className=" px-10 -my-12 md:-my-24 sm:-my-12">
-      <h1 className="text-start font-bold text-white text-4xl md:text-4xl lg:text-6xl mt-10 md:mt-20 lg:mt-40">
-        Silver Line Tours and Travels
-      </h1> 
-      <h1 className="titleText text-sky-300 text-start font-semibold text-2xl md:text-3xl lg:text-4xl mt-4 md:mt-8 lg:mt-16">
-        Connecting people and places
-      </h1>
+        <nav className="bg-cover  bg-opacity-50">
+          <Nav />
+          <SocialIcons />
+          <div className=" px-10 -my-12 md:-my-24 sm:-my-12">
+            <h1 className="text-start font-bold text-white text-4xl md:text-4xl lg:text-6xl mt-10 md:mt-20 lg:mt-40">
+              Silver Line Tours and Travels
+            </h1>
+            <h1 className="titleText text-sky-300 text-start font-semibold text-2xl md:text-3xl lg:text-4xl mt-4 md:mt-8 lg:mt-16">
+              Connecting people and places
+            </h1>
 
-      <div className="flex flex-col md:flex-row gap-4 justify-center md:justify-start mt-8">
-        <Link to="/services">
-          <button className="py-3 px-3 text-lg md:text-xl text-white bg-opacity-10 ring-2 ring-rose-500 rounded-md transition duration-300 ease-in-out hover:bg-sky-500 hover:shadow-md hover:ring-0 hover:border-none hover:text-lg hover:rounded-lg">
-            Explore more
-          </button>
-        </Link>
-        <Link to="/services">
-          <button className="py-3 px-3 text-lg md:text-xl text-white bg-opacity-15 ring-2 ring-sky-700 rounded-md transition duration-300 ease-in-out hover:bg-slate-950 hover:shadow-md hover:border-none hover:ring-0 hover:text-lg hover:rounded-lg">
-            Contact Us
-          </button>
-        </Link>
+            <div className="flex flex-col md:flex-row gap-4 justify-center md:justify-start mt-8">
+              <Link to="/services">
+                <button className="py-3 px-3 text-lg md:text-xl text-white bg-opacity-10 ring-2 ring-rose-500 rounded-md transition duration-300 ease-in-out hover:bg-sky-500 hover:shadow-md hover:ring-0 hover:border-none hover:text-lg hover:rounded-lg">
+                  Explore more
+                </button>
+              </Link>
+              <Link to="/services">
+                <button className="py-3 px-3 text-lg md:text-xl text-white bg-opacity-15 ring-2 ring-sky-700 rounded-md transition duration-300 ease-in-out hover:bg-slate-950 hover:shadow-md hover:border-none hover:ring-0 hover:text-lg hover:rounded-lg">
+                  Contact Us
+                </button>
+              </Link>
+            </div>
+          </div>
+        </nav>
       </div>
-    </div>
-  </nav>
-</div>
 
       <HomeAbout />
 

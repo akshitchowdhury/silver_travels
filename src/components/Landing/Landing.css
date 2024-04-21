@@ -4,7 +4,7 @@
 
 .left {
   padding: 10%;
-  background-color: rgb(134, 47, 47);
+  background-color: rgb(47, 134, 108);
   height: auto;
   transition: width 2s, background-color 2s, padding 2s, height 2s;
   
@@ -34,7 +34,7 @@
 }
 
 .right {
-  background-color: rgb(6, 73, 73);
+  background-color: rgb(230, 88, 45);
   transition: width 2s, background-color 2s, padding 2s;
   padding: 10%;
 }
@@ -43,7 +43,7 @@
   width: auto; /* Take up the entire screen */
   height: auto;
   padding-right: 37%;
-  background-color: peru;
+  background-color: rgb(240, 167, 93);
 }
 
 
