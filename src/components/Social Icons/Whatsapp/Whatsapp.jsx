@@ -35,7 +35,7 @@ const styles = {
 
 const WhatsApp = ({ phoneNumber, message }) => {
   const handleClick = () => {
-    const url = generateLink(phoneNumber=9740733118, message="Welcome to Play Pawws...Feel free to connect with us");
+    const url = generateLink(phoneNumber=7506526928, message="Welcome to Silver Line Tours and Travels...Feel free to connect with us");
     window.open(url, '_blank');
   };
 
