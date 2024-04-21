@@ -51,7 +51,7 @@ const ContactComponent = forwardRef((props,ref) => {
   <SocialIcons/>
   <h2 className="connect w-full lg:w-3/4 px-4 lg:p-4 lg:h-full rounded-lg  text-3xl md:text-4xl font-bold mb-4 text-center md:text-left mx-auto">Reach out to us</h2>
 
-  <div className="contactContent flex flex-col lg:flex-row sm:flex-col gap-6">
+  <div className="contactContent flex flex-col lg:flex-row sm:flex-col ">
 
 {/* Contact Card */}
 <div className="contactCard w-auto md:w-1/2 lg:w-1/2 p-4 lg:p-4 lg:h-full lg:mt-28 mx-8 rounded-lg shadow-2xl bg-gray-100">
@@ -75,7 +75,8 @@ const ContactComponent = forwardRef((props,ref) => {
 </div>
 
 {/* Contact Form */}
-<div className="form w-1/12 md:w-auto lg:w-1/2 sm:w-1/2 p-4 lg:p-4 lg:h-full rounded-lg shadow-2xl bg-white">
+<div className="form w-auto md:w-11/12 lg:w-1/2 sm:w-full p-4 lg:p-4 lg:h-full rounded-lg shadow-2xl
+mt-8 bg-white">
   <h2 className="contactUs text-2xl font-bold mb-4">Contact Us</h2>
   <form className="space-y-4" onSubmit={handleSubmit}>
     <div>
@@ -97,6 +98,7 @@ const ContactComponent = forwardRef((props,ref) => {
     <button type="submit" className="formButton text-white px-6 py-2 rounded-md">Submit</button>
   </form>
 </div>
+
 
 </div>
 
