@@ -13,7 +13,9 @@ const Footer = () => {
           <br/>
           {/* <img src={footLogo} className='footerLogo' alt="footerLogo" /> */}
           <p className='text-sm text-gray-500 font-medium'>Silver Line Tours and Travels:
-          Welcome to Silver Line Tours and Travels! We are a one-stop shop for travel solutions.</p>
+          Welcome to Silver Line Tours and Travels! We offer a refreshing approach to travel solutions. Unlike other agents who promise the moon and rush you through whirlwind tours, we prioritize your comfort and experience.
+
+</p>
         </div>
         
           </div>
