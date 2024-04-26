@@ -21,14 +21,14 @@ const testimonials = [
   {
     text: `"Silverline Tours & Travels organised our trip to the North East (Guwahati, Shillong, Cherrapunji & Kaziranga ) in Feb'2022. Planning and arrangements of hotels and car were very good. We enjoyed the trip thoroughly.
     "`,
-    author: "Andaman and Nicobar",
+    author: "Andaman and Nicobar Islands",
     Place: "Mumbai",
     image: i1,
   },
   {
     text: `"My wife and I took a trip to Andaman with Silverline Tours & Travels in October 2019. Every moment was fascinating. The arrangements, the hotels & hospitality was exclusively customized.
     Even the evenings were made entertaining with in house fun and games. Still cherish the experience."`,
-    author: "Kerela",
+    author: "Kerala",
     Place: "Dibrugarh, Assam",
     image: i2,
   },
@@ -114,7 +114,7 @@ const Services = () => {
       tracking-wider text-center text-white max-w-[90%] mx-auto" style={{
         
       }}>
-   View our Services we cater for our dear customers
+   View our Services for our customers
 </div>
 
         <div className="serviceCards my-32">

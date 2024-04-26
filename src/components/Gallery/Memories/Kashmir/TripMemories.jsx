@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import i1 from '../../../../assets/galleryMemories/keralaBG.jpg';
 import i2 from '../../../../assets/galleryMemories/gtBg.jpg';
 import i3 from '../../../../assets/galleryMemories/adBg.jpg';
-import i4 from '../../../../assets/galleryMemories/rjBg.jpg';
+import i4 from '../../../../assets/galleryMemories/kashmirBkdrop.jpg';
 import i5 from '../../../../assets/galleryMemories/sgBg.jpg';
 import i6 from '../../../../assets/galleryMemories/btBg.jpg';
 
@@ -41,9 +41,9 @@ export default function TripMemories() {
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-4 justify-center justify-self-center ">
       {/* Image cards */}
       {[
-        { image: i1, title: 'Kerela', link: '/kerela', isHovered: isHovered1, setIsHovered: setIsHovered1 },
-        { image: i2, title: 'Golden Triangle', link: '/goldentriangle', isHovered: isHovered2, setIsHovered: setIsHovered2 },
-        { image: i3, title: 'Andaman Nicobar islands', link: '/andaman', isHovered: isHovered3, setIsHovered: setIsHovered3 },
+        { image: i1, title: 'Kerala', link: '/kerela', isHovered: isHovered1, setIsHovered: setIsHovered1 },
+        { image: i2, title: 'Golden Triangle and Rajsthan', link: '/goldentriangle', isHovered: isHovered2, setIsHovered: setIsHovered2 },
+        { image: i3, title: 'Andaman and Nicobar islands', link: '/andaman', isHovered: isHovered3, setIsHovered: setIsHovered3 },
         ].map((item, index) => (
         <div key={index} className="relative justify-center justify-self-center
         " style={{padding: '5%'}}>
@@ -94,7 +94,7 @@ export default function TripMemories() {
       ))}
 
       {[
-        { image: i4, title: 'Rajasthan', link: '/rajasthan', isHovered: isHovered4, setIsHovered: setIsHovered4 },
+        { image: i4, title: 'Kashmir', link: '/kashmir', isHovered: isHovered4, setIsHovered: setIsHovered4 },
         { image: i5, title: 'Singapore/Malaysia', link: '/malaysia', isHovered: isHovered5, setIsHovered: setIsHovered5 },
         { image: i6, title: 'Noth-East', link: '/northeast', isHovered: isHovered6, setIsHovered: setIsHovered6 },
       ].map((item, index) => (

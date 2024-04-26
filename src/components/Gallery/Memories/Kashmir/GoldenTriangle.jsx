@@ -4,8 +4,8 @@ import Nav from "../../../Navbar/Nav";
 import kashmir from "../../../../assets/galleryMemories/gtBg2.jpg";
 
 import a4 from "../../../../assets/galleryMemories/gt6.jpg";
-import a2 from "../../../../assets/galleryMemories/gt3.jpg";
-import a3 from "../../../../assets/galleryMemories/gt2.jpg";
+import a2 from "../../../../assets/galleryMemories/rj1.jpg";
+import a3 from "../../../../assets/galleryMemories/rj4.jpg";
 import a1 from "../../../../assets/galleryMemories/gt4.jpg";
 import ImageGrid from "./ImageGrid";
 import Footer from "../../../Footer/Footer";

@@ -1,6 +1,6 @@
 .BookNow{
 
-    background-image: linear-gradient(to right, rgb(8, 160, 231), rgb(16, 238, 164));
+    background-image: linear-gradient(to left, rgb(8, 160, 231), rgb(16, 238, 164));
 
     padding: 5%;
 }

@@ -14,7 +14,7 @@ const TestimonialCarousel = ({ testimonials }) => {
       if (!isSliding && sliderRef.current) {
         sliderRef.current.slickNext();
       }
-    }, 4000);
+    }, 7000);
 
     return () => clearInterval(interval);
   }, [isSliding]);

@@ -16,13 +16,13 @@ const ContactComponent = forwardRef((props,ref) => {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    emailjs.init("yYVBr5BddZiFletl9");
+    emailjs.init("0Z3OS-QvD-2OjcOaS");
   }, []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const serviceId = "service_hz6vh9l";
-    const templateId = "template_15xt8ef";
+    const serviceId = "service_i1u2g6b";
+    const templateId = "template_gblhlyo";
     try {
       setLoading(true);
       await emailjs.send(serviceId, templateId, {

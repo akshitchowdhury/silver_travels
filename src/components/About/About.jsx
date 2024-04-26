@@ -24,7 +24,7 @@ const About = () => {
               className="paraText text-white text-lg mb-2 md:mb-4"
               style={{ width: "100%", color: "white" }}
             >
-              Welcome to Silver Line Tours and Travels! We are a one-stop shop
+              Welcome to Silverline Tours & Travels! We are a one-stop shop
               for travel solutions.Well, everybody claims so. Every travel
               agent, tour operator or consultant will promise you the moon, a
               hassle-free trip up and back. 

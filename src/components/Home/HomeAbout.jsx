@@ -53,7 +53,7 @@ const HomeAbout = () => {
           </div>
         </div>
 
-        <p className="paraText text-lg mb-2 md:mb-4">
+        <p className="paraText text-white text-lg mb-2 md:mb-4">
           We are a one-stop shop for travel solutions. Well, everybody claims
           so. Every travel agent, tour operator or consultant will promise you
           the moon, a hassle-free trip up and back. In practice, you are herded

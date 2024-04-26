@@ -19,7 +19,7 @@ export default function Nav() {
         <Link to="/">
           
             <span className="self-center text-2xl text-white font-semibold whitespace-nowrap dark:text-white">
-              Silver Travels
+              Silverline Tours & Travels
             </span>
           
         </Link>

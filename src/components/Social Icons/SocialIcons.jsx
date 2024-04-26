@@ -35,7 +35,8 @@ const SocialIcons = () => {
     {(ref) => ( 
       <div ref={ref} className='social-icons flex-col absolute top-16 md:top-20 left-16 transform -translate-x-1/2 p-2 rounded-lg' style={styles.container}>
         <a><WhatsApp/></a>
-        <a href="bhaswatibom@gmail.com" style={styles.link}><FontAwesomeIcon icon={faEnvelope} style={styles.icon('#EA4335', '#EA4335')} /></a>
+        <a href="silverlinetourstravels15@gmail.com" style={styles.link}><FontAwesomeIcon icon={faEnvelope} style={styles.icon('#EA4335', '#EA4335')} /></a>
+        <a href="https://www.facebook.com/profile.php?id=100063857537767&mibextid=ZbWKwL" style={styles.link}><FontAwesomeIcon icon={faFacebook} style={styles.icon('#3589EA', '#EA4335')} /></a>
         <a href="tel:+91 7506526928" style={styles.link}><FontAwesomeIcon icon={faPhone} style={styles.icon('#34A853', '#34A853')} /></a>
       </div>
     )}

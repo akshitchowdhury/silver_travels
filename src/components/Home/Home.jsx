@@ -85,7 +85,7 @@ const testimonials = [
     image: i8,
   },
   {
-    text: `"We, Mrs. and Mr. Milwani had travelled to Bangkok and Pataya with the group led by Mrs Bose of Silverline Tours & Travels. It was really a wonderful and enjoyable experience.Silverline Tours and travels  made my North Bengal trip a breeze! From start to finish, everything was well-organized and stress-free. The entire itinerary was packed with amazing experiences, and I couldn't have asked for a better time. Attention to details was great for all the experiences we had especially the tea ceremony which we experienced at the plantation. Definitely will be booking my future trip from Silverline Tours and Travels !!
+    text: `"We, Mrs. and Mr. Milwani had travelled to Bangkok and Pataya with the group led by Mrs Bose of Silverline Tours & Travels. It was really a wonderful and enjoyable experience.!!
     "`,
     author: "Bihari Milwani.",
     Place: "Mumbai",
@@ -103,9 +103,9 @@ const Home = () => {
           <SocialIcons />
           <div className=" px-10 -my-12 md:-my-24 sm:-my-12">
             <h1 className="text-start font-bold text-white text-4xl md:text-4xl lg:text-6xl mt-10 md:mt-20 lg:mt-40">
-              Silver Line Tours and Travels
+              Silverline Tours & Travels
             </h1>
-            <h1 className="titleText text-sky-300 text-start font-semibold text-2xl md:text-3xl lg:text-4xl mt-4 md:mt-8 lg:mt-16">
+            <h1 className="titleText text-sky-500 text-start font-semibold text-2xl md:text-3xl lg:text-4xl mt-4 md:mt-8 lg:mt-16">
               Connecting people and places
             </h1>
 

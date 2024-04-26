@@ -12,8 +12,8 @@ const Footer = () => {
           <h4 className="text-sm font-semibold uppercase">About Us</h4>
           <br/>
           {/* <img src={footLogo} className='footerLogo' alt="footerLogo" /> */}
-          <p className='text-sm text-gray-500 font-medium'>Silver Line Tours and Travels:
-          Welcome to Silver Line Tours and Travels! We offer a refreshing approach to travel solutions. Unlike other agents who promise the moon and rush you through whirlwind tours, we prioritize your comfort and experience.
+          <p className='text-sm text-gray-500 font-medium'>Silverline Tours & Travels:
+          Welcome to Silverline Tours & Travels! We offer a refreshing approach to travel solutions. Unlike other agents who promise the moon and rush you through whirlwind tours, we prioritize your comfort and experience.
 
 </p>
         </div>
@@ -70,12 +70,12 @@ const Footer = () => {
             <ul className='my-2'>
           
           <li className='text-gray-500'>
-Silverline Tours & Travels
+          Silverline Tours & Travels
 Lokhandwala, Andheri West
 Mumbai 400053
 <li>
-E-mail: bhaswatibom@gmail.com</li>
-<li>Mob/WhatsApp: 7506526928</li>
+E-mail: silverlinetourstravels15@gmail.com</li>
+<li>Mob/WhatsApp: +91 7506526928</li>
 </li>
           
         </ul>

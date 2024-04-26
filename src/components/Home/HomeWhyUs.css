@@ -1,15 +1,12 @@
 .WhyUs{
+     
 
-    background-image: url("../../assets/home1.jpg");
+    background-image: url("../../assets/home3.jpg");
 
     background-size: cover;
-    background-color: rgba(234, 238, 8, 0.5);
-    background-blend-mode: multiply;
-    background-attachment: fixed;
     height: auto;
     width: auto;
-    background-size: cover;
-    background-position: center;
+    background-position: top;
     padding: 33px 0;
      /* Adjust the blur level as needed */
 }

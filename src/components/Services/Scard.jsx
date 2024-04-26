@@ -61,7 +61,7 @@ const Scard = () => {
                 Comfortable Lodging
               </div>
               <div className="mt-5 text-base tracking-wide">
-                Enjoy Luxurious Hotel Stays with Delectable Meals Included
+                Enjoy Comfortable Hotel Stays with Delectable Meals Included
               </div>
             </div>
           </Link>
@@ -155,7 +155,7 @@ const Scard = () => {
         <div className="specialServices grid grid-cols-1 md:grid-cols-2">
           <h2 className="text-center text-white text-3xl py-4 my-8 font-semibold md:text-3xl mb-8">
             We also specialzie in these seamless services catering for the
-            elderly:
+            elderly and ladies:
           </h2>
           <div className="my-12 grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
             <Link to="/contact" className="flex justify-center">
@@ -178,8 +178,7 @@ const Scard = () => {
                 <div className="mt-3 text-sm tracking-wide">
                   Minimum 12 pax and for 6 nights/7 days. These tours are
                   conducted during offseason (to avoid the crowds and high hotel
-                  rates). Entire tour is accompanied by a company
-                  representative. Get-togethers and inhouse fun activities in
+                  rates). Get-togethers and inhouse fun activities in
                   the evenings.
                 </div>
               </div>

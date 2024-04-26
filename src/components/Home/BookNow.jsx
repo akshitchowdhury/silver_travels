@@ -18,7 +18,7 @@ const BookNow = () => {
           }}
         />
         <div className="bookContent md:pl-6 md:w-1/2">
-          <p className="bookText text-black text-lg mb-2 md:mb-4">
+          <p className="bookText text-white text-lg mb-2 md:mb-4">
             At Silver Line Tours and Travel, we understand that every traveler
             is unique, and that's why we go above and beyond to tailor our
             services to your specific preferences and needs. Whether you're
