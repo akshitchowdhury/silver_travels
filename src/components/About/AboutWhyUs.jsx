@@ -8,7 +8,7 @@ import i3 from "../../assets/g4.webp";
 import i4 from "../../assets/g6.jpg";
 import i5 from "../../assets/g5.jpg";
 import PicFlow from "../Gallery/PicFlow/PicFlow";
-import './AboutWhyUs.css'
+// import './AboutWhyUs.css'
 const items = [
   {
     title: "Exceptional Customer Service",
@@ -45,10 +45,17 @@ const AboutWhyUs = () => {
         padding: "5%"
       }}
     >
+      <div className="w-full md:w-1/2 p-4 md:p-0">
+        <Accordion items={items} />
+      </div>
+      
       <div className="flex flex-col items-center justify-center md:items-start md:justify-start md:w-1/2 md:p-8">
         
         <p
-          className="paraText text-zinc-800 text-lg mb-4"
+          className="paraText text-white text-lg mb-2 md:mb-4
+              bg-inherit border-gray-200
+              p-12
+     dark:bg-inherit   backdrop-filter backdrop-blur-md rounded-lg"
 
         >
           So, why SILVERLINE TOURS & TRAVELS? Ours is a small, low-cost
@@ -76,9 +83,7 @@ const AboutWhyUs = () => {
           we have moved on since then.
         </p>
       </div>
-      <div className="w-full md:w-1/2 p-4 md:p-0">
-        <Accordion items={items} />
-      </div>
+      
     </div>
   );
 };

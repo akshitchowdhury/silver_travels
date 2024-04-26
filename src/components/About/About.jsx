@@ -21,7 +21,10 @@ const About = () => {
           >
           
             <p
-              className="paraText text-white text-lg mb-2 md:mb-4"
+              className="paraText text-white text-lg mb-2 md:mb-4
+              bg-inherit border-gray-200
+              p-12
+     dark:bg-inherit   backdrop-filter backdrop-blur-md rounded-lg"
               style={{ width: "100%", color: "white" }}
             >
               Welcome to Silverline Tours & Travels! We are a one-stop shop
@@ -60,9 +63,11 @@ const About = () => {
               }}
             />
           </div>
+          <AboutWhyUs />
         </div>
+        
       </div>
-      <AboutWhyUs />
+      
       <Footer />
     </>
   );
