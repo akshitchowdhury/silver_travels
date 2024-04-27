@@ -6,7 +6,7 @@ import malayBg from "../../../../assets/galleryMemories/malayBg.jpg";
 
 import a4 from "../../../../assets/galleryMemories/ml1.jpg";
 import a2 from "../../../../assets/galleryMemories/ml2.jpg";
-import a3 from "../../../../assets/galleryMemories/ml3.jpg";
+import a3 from "../../../../assets/galleryMemories/sg4.jpg";
 import a1 from "../../../../assets/galleryMemories/ml4.jpg";
 import ImageGrid from "./ImageGrid";
 import Footer from "../../../Footer/Footer";
