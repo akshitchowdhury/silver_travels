@@ -186,7 +186,7 @@ const Scard = () => {
             <Link to="/contact" className="flex justify-center">
               <div className="Servecard 
               h-auto flex flex-col items-center px-5 py-8 w-full md:w-6/7 sm:w-full text-center
-               text-fuchsia-900 bg-pink-100 rounded-xl border-2 border-solid border-zinc-400 hover:bg-pink-500
+               text-fuchsia-900 bg-orange-400 rounded-xl border-2 border-solid border-zinc-400 hover:bg-pink-500
                 transition duration-500 ease-in-out">
                 <img
                   loading="lazy"
