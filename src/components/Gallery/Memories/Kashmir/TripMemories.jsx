@@ -96,7 +96,7 @@ export default function TripMemories() {
       {[
         { image: i4, title: 'Kashmir', link: '/kashmir', isHovered: isHovered4, setIsHovered: setIsHovered4 },
         { image: i5, title: 'Singapore/Malaysia', link: '/malaysia', isHovered: isHovered5, setIsHovered: setIsHovered5 },
-        { image: i6, title: 'Noth-East', link: '/northeast', isHovered: isHovered6, setIsHovered: setIsHovered6 },
+        { image: i6, title: 'Noth-East India and Bhutan', link: '/northeast', isHovered: isHovered6, setIsHovered: setIsHovered6 },
       ].map((item, index) => (
         <div key={index} className="relative" style={{padding: '7%'}}>
           <Link to={item.link}>
