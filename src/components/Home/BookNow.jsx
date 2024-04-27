@@ -19,7 +19,7 @@ const BookNow = () => {
         />
         <div className="bookContent md:pl-6 md:w-1/2">
           <p className="bookText text-white text-lg mb-2 md:mb-4">
-            At Silver Line Tours & Travels, we understand that every traveler
+            At Silverline Tours & Travels, we understand that every traveler
             is unique, and that's why we go above and beyond to tailor our
             services to your specific preferences and needs. Whether you're
             seeking a solo adventure, a romantic getaway, or a group expedition,
@@ -27,8 +27,7 @@ const BookNow = () => {
             reality.
             <br />
             <br />
-            Ready to embark on your next unforgettable journey? Contact Silver
-            Line Tours & Travels today to unlock exclusive deals and
+            Ready to embark on your next unforgettable journey? Contact Silverine Tours & Travels today to unlock exclusive deals and
             personalized assistance for your dream vacation. Don't miss out on
             the opportunity to experience the world in a whole new way. Let us
             be your guide to adventure and exploration. Reach out now and let
