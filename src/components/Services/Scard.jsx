@@ -199,7 +199,7 @@ const Scard = () => {
                   Ladies Only Group Tour
                 </div>
                 <div className="mt-3 text-sm tracking-wide">
-                Minimum 12 pax and for 6 nights/7 days. These tours are accompanied by a female company personnel. Get-togethers and inhouse fun activities in the evenings. 
+                Minimum 12 pax and for 6 nights/7 days. Get-togethers and inhouse fun activities in the evenings. 
 
                 </div>
               </div>
