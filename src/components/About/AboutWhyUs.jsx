@@ -79,8 +79,7 @@ const AboutWhyUs = () => {
           <br />
           That’s when we stepped in and made it our
           mission to celebrate the silver strands marking those in the autumn of
-          their lives. Hence SILVERLINE TOURS & TRAVELS. Here’s a glimpse of how
-          we have moved on since then.
+          their lives. Hence SILVERLINE TOURS & TRAVELS.
         </p>
       </div>
       

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800">
+    <footer className="bg-gray-800 p-12 md:p-2">
       <div className=" max-w-7xl mx-auto py-12  sm:px-24 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-center">
           
@@ -20,7 +20,7 @@ const Footer = () => {
         
           </div>
 
-          <div className="text-white justify-center justify-self-center">
+          <div className="text-white   ">
             <h2 className="mb-6 text-sm font-semibold uppercase">Quick Links</h2>
             <ul className="text-gray-500 font-medium">
               <li className="mb-4">
@@ -41,7 +41,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="text-white justify-center justify-self-center">
+          <div className="text-white  ">
             <h2 className="mb-6 text-sm font-semibold uppercase">Services</h2>
             <ul className="text-gray-500 font-medium">
               <li className="mb-4">
@@ -81,9 +81,9 @@ E-mail: silverlinetourstravels15@gmail.com</li>
         </ul>
           </div>
         </div>
-        <div className="self-center mt-7 text-base tracking-wide text-white max-md:max-w-full" style={{marginLeft:
-      '37%'}}>
-        @copyright 2024 Developed by Akshit Chowdhury
+        <div className=" mt-7 text-base tracking-wide text-white max-md:max-w-full
+        mx-0 md:mx-96" >
+        @copyright 2024 Developed by Akshit_Chowdhury
       </div>
       </div>
       
