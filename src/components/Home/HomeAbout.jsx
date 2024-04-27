@@ -5,7 +5,7 @@ import "./HomeAbout.css";
 import home1 from "../../assets/landingBg.jpg";
 import home2 from "../../assets/home1.jpg";
 import home3 from "../../assets/home2.jpg";
-import home4 from "../../assets/home3.jpg";
+import home4 from "../../assets/g15.jpg";
 
 const HomeAbout = () => {
   return (
