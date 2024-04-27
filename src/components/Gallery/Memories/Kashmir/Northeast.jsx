@@ -3,7 +3,7 @@ import Nav from "../../../Navbar/Nav";
 
 import kashmir from "../../../../assets/galleryMemories/btBg2.jpg";
 
-import a3 from "../../../../assets/galleryMemories/ne4.jpg";
+import a3 from "../../../../assets/galleryMemories/bt5.jpg";
 import a4 from "../../../../assets/galleryMemories/bt2.jpg";
 import a1 from "../../../../assets/galleryMemories/ne3.jpg";
 import a2 from "../../../../assets/galleryMemories/bt4.jpg";
@@ -37,12 +37,12 @@ const Northeast = () => {
             style={{  color: "white" }}
           >
             Embark on a mesmerizing journey through the enchanting landscapes of
-            North East India with Silverline Tours & Travels. Our recent
+            North East India and Bhutan with Silverline Tours & Travels. Our recent
             expedition uncovered the hidden gems of this region, from the
             majestic Himalayan peaks to the lush valleys and cascading
             waterfalls. Join us for an unforgettable adventure filled with
             awe-inspiring natural wonders and cultural discoveries. Below, we
-            share glimpses of our remarkable North East India trip.
+            share glimpses of our remarkable North East India and Bhutan trip.
             <br />
           </p>
           
