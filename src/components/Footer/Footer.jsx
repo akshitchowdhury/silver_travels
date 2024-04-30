@@ -83,7 +83,7 @@ E-mail: silverlinetourstravels15@gmail.com</li>
         </div>
         <div className=" mt-7 text-base tracking-wide text-white max-md:max-w-full
         mx-0 md:mx-96" >
-        @copyright 2024 Developed by Akshit_Chowdhury
+        @copyright 2024 Developed by <a href="https://business-portfolio-eta.vercel.app/"> Akshit_Chowdhury</a>
       </div>
       </div>
       
